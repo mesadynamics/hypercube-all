@@ -1,0 +1,52 @@
+/*- Menu Tabs H--------------------------- */
+
+#tabsH {
+  float:left;
+  width:100%;
+  background:#0D0D0D;
+  line-height:normal;
+  }
+#tabsH ul {
+	margin:0;
+	padding:10px 10px 0 20px;
+	list-style:none;
+  }
+#tabsH li {
+  display:inline;
+  margin:0;
+  padding:0;
+  font-size:90%;
+  }
+#tabsH a {
+  float:left;
+  background:url("tableftH.gif") no-repeat left top;
+  margin:0;
+  padding:0 0 0 4px;
+  text-decoration:none;
+  }
+#tabsH a span {
+  float:left;
+  display:block;
+  background:url("tabrightH.gif") no-repeat right top;
+  padding:5px 15px 4px 6px;
+  color:#FFF;
+  }
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabsH a span {float:none;}
+/* End IE5-Mac hack */
+#tabsH a:hover span {
+  color:#FFF;
+  }
+#tabsH a:hover {
+  background-position:0% -42px;
+  }
+#tabsH a:hover span {
+  background-position:100% -42px;
+  }
+
+#tabsH #current a {
+		background-position:0% -42px;
+}
+#tabsH #current a span {
+		background-position:100% -42px;
+}

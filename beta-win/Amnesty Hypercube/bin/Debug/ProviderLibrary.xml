@@ -1,0 +1,240 @@
+<?xml version="1.0" standalone="yes"?>
+<Provider xmlns="http://tempuri.org/Provider.xsd">
+  <Providers>
+    <title>LIBRARY  </title>
+    <key>^Library</key>
+    <type>noop</type>
+    <icon>NoImage</icon>
+    <canEdit>false</canEdit>
+    <canSelect>false</canSelect>
+    <canDrop>false</canDrop>
+    <canLink>false</canLink>
+    <status>0</status>
+    <index>0</index>
+  </Providers>
+  <Providers>
+    <title>Web Widgets </title>
+    <key>_Web</key>
+    <type>widgets</type>
+    <icon>IconWeb</icon>
+    <canEdit>false</canEdit>
+    <canSelect>true</canSelect>
+    <canDrop>true</canDrop>
+    <canLink>false</canLink>
+    <status>0</status>
+    <index>1</index>
+  </Providers>
+  <Providers>
+    <title>DISCOVERY  </title>
+    <key>^Discovery</key>
+    <type>noop</type>
+    <icon>NoImage</icon>
+    <canEdit>false</canEdit>
+    <canSelect>false</canSelect>
+    <canDrop>false</canDrop>
+    <canLink>false</canLink>
+    <status>0</status>
+    <index>2</index>
+  </Providers>
+  <Providers>
+    <title>Widgetbox </title>
+    <key>_Widgetbox</key>
+    <type>widgets</type>
+    <icon>_Widgetbox</icon>
+    <canEdit>false</canEdit>
+    <canSelect>false</canSelect>
+    <canDrop>false</canDrop>
+    <canLink>false</canLink>
+    <status>0</status>
+    <index>3</index>
+  </Providers>
+  <Providers>
+    <title>Featured Widgets </title>
+    <key>_Showcase</key>
+    <type>widgets</type>
+    <icon>IconStar</icon>
+    <canEdit>false</canEdit>
+    <canSelect>false</canSelect>
+    <canDrop>false</canDrop>
+    <canLink>false</canLink>
+    <status>0</status>
+    <index>4</index>
+  </Providers>
+  <Providers>
+    <title>Publisher Directory </title>
+    <key>_Store</key>
+    <type>publishers</type>
+    <icon>IconWorld</icon>
+    <canEdit>false</canEdit>
+    <canSelect>false</canSelect>
+    <canDrop>false</canDrop>
+    <canLink>false</canLink>
+    <status>0</status>
+    <index>5</index>
+  </Providers>
+  <Providers>
+    <title>PLATFORM  </title>
+    <key>^Platform</key>
+    <type>noop</type>
+    <icon>NoImage</icon>
+    <canEdit>false</canEdit>
+    <canSelect>false</canSelect>
+    <canDrop>false</canDrop>
+    <canLink>false</canLink>
+    <status>0</status>
+    <index>6</index>
+  </Providers>
+  <Providers>
+    <title>Vista Sidebar </title>
+    <key>_Sidebar</key>
+    <type>widgets</type>
+    <icon>_Sidebar</icon>
+    <canEdit>false</canEdit>
+    <canSelect>true</canSelect>
+    <canDrop>true</canDrop>
+    <canLink>false</canLink>
+    <status>0</status>
+    <index>7</index>
+  </Providers>
+  <Providers>
+    <title>Yahoo! Widget Engine </title>
+    <key>_Yahoo</key>
+    <type>widgets</type>
+    <icon>_Yahoo</icon>
+    <canEdit>false</canEdit>
+    <canSelect>true</canSelect>
+    <canDrop>true</canDrop>
+    <canLink>false</canLink>
+    <status>0</status>
+    <index>8</index>
+  </Providers>
+  <Providers>
+    <title>DESTINATION  </title>
+    <key>^Destination</key>
+    <type>noop</type>
+    <icon>NoImage</icon>
+    <canEdit>false</canEdit>
+    <canSelect>false</canSelect>
+    <canDrop>false</canDrop>
+    <canLink>false</canLink>
+    <status>0</status>
+    <index>9</index>
+  </Providers>
+  <Providers>
+    <title>MySpace </title>
+    <key>_MySpace</key>
+    <type>widgets</type>
+    <icon>_MySpace</icon>
+    <canEdit>false</canEdit>
+    <canSelect>false</canSelect>
+    <canDrop>true</canDrop>
+    <canLink>true</canLink>
+    <status>1</status>
+    <index>10</index>
+  </Providers>
+  <Providers>
+    <title>Facebook </title>
+    <key>_Facebook</key>
+    <type>widgets</type>
+    <icon>_Facebook</icon>
+    <canEdit>false</canEdit>
+    <canSelect>false</canSelect>
+    <canDrop>true</canDrop>
+    <canLink>true</canLink>
+    <status>1</status>
+    <index>11</index>
+  </Providers>
+  <Providers>
+    <title>Bebo </title>
+    <key>_Bebo</key>
+    <type>widgets</type>
+    <icon>_Bebo</icon>
+    <canEdit>false</canEdit>
+    <canSelect>false</canSelect>
+    <canDrop>true</canDrop>
+    <canLink>true</canLink>
+    <status>1</status>
+    <index>12</index>
+  </Providers>
+  <Providers>
+    <title>hi5 </title>
+    <key>_Hi5</key>
+    <type>widgets</type>
+    <icon>_Hi5</icon>
+    <canEdit>false</canEdit>
+    <canSelect>false</canSelect>
+    <canDrop>true</canDrop>
+    <canLink>true</canLink>
+    <status>1</status>
+    <index>13</index>
+  </Providers>
+  <Providers>
+    <title>Friendster </title>
+    <key>_Friendster</key>
+    <type>widgets</type>
+    <icon>_Friendster</icon>
+    <canEdit>false</canEdit>
+    <canSelect>false</canSelect>
+    <canDrop>true</canDrop>
+    <canLink>true</canLink>
+    <status>1</status>
+    <index>14</index>
+  </Providers>
+  <Providers>
+    <title>Orkut </title>
+    <key>_Orkut</key>
+    <type>widgets</type>
+    <icon>_Orkut</icon>
+    <canEdit>false</canEdit>
+    <canSelect>false</canSelect>
+    <canDrop>true</canDrop>
+    <canLink>true</canLink>
+    <status>1</status>
+    <index>15</index>
+  </Providers>
+  <Providers>
+    <title>COLLECTION  </title>
+    <key>^Collection</key>
+    <type>noop</type>
+    <icon>NoImage</icon>
+    <canEdit>false</canEdit>
+    <canSelect>false</canSelect>
+    <canDrop>false</canDrop>
+    <canLink>false</canLink>
+    <status>0</status>
+    <index>16</index>
+  </Providers>
+  <Providers>
+    <title>Beta Bundle</title>
+    <key />
+    <icon>IconCube</icon>
+    <canEdit>true</canEdit>
+    <canSelect>true</canSelect>
+    <canDrop>true</canDrop>
+    <canLink>false</canLink>
+    <status>0</status>
+    <index>17</index>
+  </Providers>
+  <Providers>
+    <title>Untitled</title>
+    <key />
+    <icon>IconCube</icon>
+    <canEdit>true</canEdit>
+    <canSelect>true</canSelect>
+    <canDrop>true</canDrop>
+    <canLink>false</canLink>
+    <status>0</status>
+    <index>18</index>
+  </Providers>
+  <Providers>
+    <title>Untitled</title>
+    <key />
+    <icon>IconCube</icon>
+    <canEdit>true</canEdit>
+    <canSelect>true</canSelect>
+    <canDrop>true</canDrop>
+    <canLink>false</canLink>
+    <status>0</status>
+    <index>19</index>
+  </Providers>
+</Provider>

@@ -1,0 +1,11 @@
+C:\Users\Danny\Documents\Visual Studio 2005\Projects\Amnesty Hypercube\Amnesty Hypercube\obj\Debug\Amnesty Hypercube.exe
+C:\Users\Danny\Documents\Visual Studio 2005\Projects\Amnesty Hypercube\Amnesty Hypercube\bin\Debug\Hypercube.mdf
+C:\Users\Danny\Documents\Visual Studio 2005\Projects\Amnesty Hypercube\Amnesty Hypercube\bin\Debug\Hypercube_log.ldf
+C:\Users\Danny\Documents\Visual Studio 2005\Projects\Amnesty Hypercube\Amnesty Hypercube\bin\Debug\Amnesty Hypercube.exe.config
+C:\Users\Danny\Documents\Visual Studio 2005\Projects\Amnesty Hypercube\Amnesty Hypercube\bin\Debug\Amnesty Hypercube.exe
+C:\Users\Danny\Documents\Visual Studio 2005\Projects\Amnesty Hypercube\Amnesty Hypercube\bin\Debug\Amnesty Hypercube.pdb
+C:\Users\Danny\Documents\Visual Studio 2005\Projects\Amnesty Hypercube\Amnesty Hypercube\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Danny\Documents\Visual Studio 2005\Projects\Amnesty Hypercube\Amnesty Hypercube\obj\Debug\Amnesty_Hypercube.Form1.resources
+C:\Users\Danny\Documents\Visual Studio 2005\Projects\Amnesty Hypercube\Amnesty Hypercube\obj\Debug\Amnesty_Hypercube.Properties.Resources.resources
+C:\Users\Danny\Documents\Visual Studio 2005\Projects\Amnesty Hypercube\Amnesty Hypercube\obj\Debug\Amnesty Hypercube.csproj.GenerateResource.Cache
+C:\Users\Danny\Documents\Visual Studio 2005\Projects\Amnesty Hypercube\Amnesty Hypercube\obj\Debug\Amnesty Hypercube.pdb

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- thanks to Juan José Saavedra Macco -->
+<root>                                              
+    <example>                                             
+      <capital>A E I O U</capital>  
+      <noncapital>a e i o u</noncapital>
+      <special>none</special> 
+    </example>
+    <example>                                             
+      <capital>Á É Í Ó Ú Ñ Ç Ï Ü À È Ò Ŀ</capital>  
+      <noncapital>á é í ó ú ñ ç ï ü à è ò ŀ</noncapital> 
+      <special>¿ ¡</special>                                                                                         
+    </example>
+    <example>                                             
+      <capital>Á É Í Ó U Ç Â Ê Î Ô Û Ã Õ À È Ò</capital>  
+      <noncapital>á é í ó ú ç â ê î ô û ã õ À È Ò</noncapital> 
+      <special>none</special>                                                                                         
+    </example>            
+</root>                                     

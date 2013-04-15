@@ -1,0 +1,45 @@
+﻿// Copyright 2006-2013 Danny Espinoza
+
+var GeneratorPlugin = 0;
+
+function generator_setup()
+{
+	if(GeneratorPlugin)
+		GeneratorPlugin.registerWidget("com.mesadynamics.widget.Generator", "0000-0000-0000-0000");
+
+	if(window.widget) {
+		widget.onshow = generator_onshow;
+		widget.onhide = generator_onhide;
+
+		window.open = generator_open;
+	}
+}
+
+function generator_dismiss()
+{
+	if(GeneratorPlugin)
+		widget.openURL('');
+}
+
+function generator_track()
+{
+	if(GeneratorPlugin)
+		GeneratorPlugin.track();
+}
+
+function generator_onshow()
+{
+	if(GeneratorPlugin)
+		GeneratorPlugin.resume();
+}
+
+function generator_onhide()
+{
+	if(GeneratorPlugin)
+		GeneratorPlugin.pause();
+}
+
+function generator_open(url, frame, style)
+{
+	widget.openURL(url);
+}

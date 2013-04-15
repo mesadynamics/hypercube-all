@@ -1,0 +1,38 @@
+"OK" = "OK";
+"Cancel" = "Cancel";
+
+"IPhoneApp" = "iPhone Application";
+"Widget" = "Widget";
+"UnknownWidget" = "Unknown Widget";
+"FeaturedProvider" = "Featured";
+"OtherProvider" = "Other";
+
+"Hypercube" = "Hypercube";
+"Cube" = "Cube";
+"WidgetGallery" = "Widget Gallery";
+"CubeGallery" = "Cube Gallery";
+"ProviderGallery" = "Provider Gallery";
+"InfoCenter" = "Info Center";
+"Welcome" = "Welcome to Amnesty Hypercube";
+
+"TipWidgetGallery" = "Add a widget to this cube.";
+"TipCubeGallery" = "Switch to another cube.";
+"TipProviderGallery" = "Get more widgets online.";
+"TipExit" = "Close the Hypercube.";
+"TipHelp" = "Everything you need to know about Amnesty Hypercube.";
+"TipClose" = "Close this window.";
+"TipReturn" = "Return to the Provider Gallery.";
+"TipHome" = "Go to the home page.";
+"TipPrevious" = "Show the previous page.";
+"TipNext" = "Show the next page.";
+"TipDown" = "Scroll down.";
+"TipUp" = "Scroll up.";
+
+"TipPresetAll" = "All";
+"TipPresetIPhone" = "iPhone Applications";
+"TipPresetLibraries" = "Widget Directories";
+"TipPresetGames" = "Fun and Games";
+"TipPresetVideo" = "Embeddable Video";
+"TipPresetPhotos" = "Photo Slideshows";
+"TipPresetMusic" = "Music Players";
+"TipPresetOther" = "Other Widgets";

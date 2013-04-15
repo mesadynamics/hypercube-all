@@ -1,0 +1,80 @@
+<?xml version="1.0" standalone="yes"?>
+<Widget xmlns="http://tempuri.org/Widget.xsd">
+  <Widgets>
+    <code>&lt;script src=&quot;http://gmodules.com/ig/ifr?url=http://bejeweledg.googlecode.com/svn/trunk/bejeweled.xml&amp;synd=open&amp;w=320&amp;h=270&amp;title=Bejeweled&amp;border=http%3A%2F%2Fgmodules.com%2Fig%2Fimages%2F&amp;output=js&quot;&gt;&lt;/script&gt;</code>
+    <provider>Google Gadgets</provider>
+    <title>Bejeweled</title>
+    <identifier>(bejeweledg.googlecode.com)F032-27F1-E602-A5AB</identifier>
+    <collection>_Web</collection>
+  </Widgets>
+  <Widgets>
+    <code>&lt;!-- SpringWidgets | Netflix Widget (#1212) | HTML | Generated on 06/14/2008 --&gt;&lt;object type=&quot;application/x-shockwave-flash&quot; allowNetworking=&quot;all&quot; allowScriptAccess=&quot;always&quot; allowFullScreen=&quot;true&quot; height=&quot;233&quot; width=&quot;300&quot; id=&quot;springwidgets_1212&quot; align=&quot;middle&quot; data=&quot;http://downloads.thespringbox.com/web/wrapper.php?file=Netflix Widget.sbw&quot; classid=&quot;clsid:D27CDB6E-AE6D-11cf-96B8-444553540000&quot; codebase=&quot;http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0&quot;&gt;&lt;param name=&quot;allowNetworking&quot; value=&quot;all&quot; /&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;movie&quot; value=&quot;http://downloads.thespringbox.com/web/wrapper.php?file=Netflix Widget.sbw&quot; /&gt;&lt;param name=&quot;flashvars&quot; value=&quot;param_myTab=0&amp;param_memberID=&quot; /&gt;&lt;param name=&quot;quality&quot; value=&quot;high&quot; /&gt;&lt;param name=&quot;wmode&quot; value=&quot;transparent&quot; /&gt;&lt;param name=&quot;bgColor&quot; value=&quot;0x000000&quot; /&gt;&lt;embed bgColor=&quot;0x000000&quot; allowNetworking=&quot;all&quot; allowFullScreen=&quot;true&quot; allowScriptAccess=&quot;always&quot; src=&quot;http://downloads.thespringbox.com/web/wrapper.php?file=Netflix Widget.sbw&quot; flashvars=&quot;param_myTab=0&amp;param_memberID=&quot; quality=&quot;high&quot; name=&quot;springwidgets_1212&quot; wmode=&quot;transparent&quot; width=&quot;300&quot; height=&quot;233&quot; align=&quot;middle&quot; type=&quot;application/x-shockwave-flash&quot; pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;div style=&quot;font:11px/12px arial;width:300px;&quot;&gt;&lt;a href=&quot;http://www.springwidgets.com/widgets/view/1212/?param_myTab=0&amp;param_memberID=&amp;width=300&amp;height=215&quot; target=&quot;_blank&quot;&gt;Get this widget!&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;http://click.linksynergy.com/fs-bin/click?id=M8VsAB8tkHM&amp;offerid=78684.10000262&amp;type=4&amp;subid=0&quot;&gt;&lt;IMG alt=&quot;Netflix, Inc.&quot; border=&quot;0&quot; src=&quot;http://cdn.netflix.com/us/affiliates/banners/0804/088031C.gif&quot;&gt;&lt;/a&gt;&lt;IMG border=&quot;0&quot; width=&quot;1&quot; height=&quot;1&quot; src=&quot;http://ad.linksynergy.com/fs-bin/show?id=M8VsAB8tkHM&amp;bids=78684.10000262&amp;type=4&amp;subid=0&quot;&gt;&lt;/div&gt;&lt;/div&gt;</code>
+    <provider>SpringWidgets</provider>
+    <title>Netflix</title>
+    <identifier>(downloads.thespringbox.com)7C48-E15E-4052-C01B</identifier>
+    <collection>_Web</collection>
+  </Widgets>
+  <Widgets>
+    <code>&lt;!-- SpringWidgets | EtchASketch (#5062) | HTML | Generated on 06/14/2008 --&gt;&lt;object type=&quot;application/x-shockwave-flash&quot; allowNetworking=&quot;all&quot; allowScriptAccess=&quot;always&quot; allowFullScreen=&quot;true&quot; height=&quot;339&quot; width=&quot;362&quot; id=&quot;springwidgets_5062&quot; align=&quot;middle&quot; data=&quot;http://downloads.thespringbox.com/web/wrapper.php?file=EtchASketch.sbw&quot; classid=&quot;clsid:D27CDB6E-AE6D-11cf-96B8-444553540000&quot; codebase=&quot;http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0&quot;&gt;&lt;param name=&quot;allowNetworking&quot; value=&quot;all&quot; /&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;movie&quot; value=&quot;http://downloads.thespringbox.com/web/wrapper.php?file=EtchASketch.sbw&quot; /&gt;&lt;param name=&quot;flashvars&quot; value=&quot;&quot; /&gt;&lt;param name=&quot;quality&quot; value=&quot;high&quot; /&gt;&lt;param name=&quot;wmode&quot; value=&quot;transparent&quot; /&gt;&lt;param name=&quot;bgColor&quot; value=&quot;0x000000&quot; /&gt;&lt;embed bgColor=&quot;0x000000&quot; allowNetworking=&quot;all&quot; allowFullScreen=&quot;true&quot; allowScriptAccess=&quot;always&quot; src=&quot;http://downloads.thespringbox.com/web/wrapper.php?file=EtchASketch.sbw&quot; flashvars=&quot;&quot; quality=&quot;high&quot; name=&quot;springwidgets_5062&quot; wmode=&quot;transparent&quot; width=&quot;362&quot; height=&quot;339&quot; align=&quot;middle&quot; type=&quot;application/x-shockwave-flash&quot; pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;div style=&quot;font:11px/12px arial;width:362px;&quot;&gt;&lt;a href=&quot;http://www.springwidgets.com/widgets/view/5062/?&amp;width=362&amp;height=321&quot; target=&quot;_blank&quot;&gt;Get this widget!&lt;/a&gt;&lt;/div&gt;</code>
+    <provider>SpringWidgets</provider>
+    <title>EtchASketch</title>
+    <identifier>(downloads.thespringbox.com)BD63-896D-EC44-E73B</identifier>
+    <collection>_Web</collection>
+  </Widgets>
+  <Widgets>
+    <code>&lt;script src=&quot;http://gmodules.com/ig/ifr?url=http://lsmith2004.googlepages.com/Maukie.xml&amp;synd=open&amp;w=360&amp;h=420&amp;title=Maukie&amp;border=http%3A%2F%2Fgmodules.com%2Fig%2Fimages%2F&amp;output=js&quot;&gt;&lt;/script&gt;</code>
+    <provider>Google Gadgets</provider>
+    <title>Maukie</title>
+    <identifier>(lsmith2004.googlepages.com)793A-2751-FF11-24E7</identifier>
+    <collection>_Web</collection>
+  </Widgets>
+  <Widgets>
+    <code>&lt;object type=&quot;application/x-shockwave-flash&quot; data=&quot;http://widgets.clearspring.com/o/47d56734bf0d85bd/48540ba890af7653/47e28d849f5e05ae/773f39b1&quot; id=&quot;W47d56734bf0d85bd48540ba890af7653&quot; height=&quot;324&quot; width=&quot;404&quot;&gt;&lt;param value=&quot;http://widgets.clearspring.com/o/47d56734bf0d85bd/48540ba890af7653/47e28d849f5e05ae/773f39b1&quot; name=&quot;movie&quot;/&gt;&lt;param value=&quot;transparent&quot; name=&quot;wmode&quot;&gt;&lt;param value=&quot;all&quot; name=&quot;allowNetworking&quot;&gt;&lt;param value=&quot;always&quot; name=&quot;allowScriptAccess&quot;&gt;&lt;/object&gt;</code>
+    <provider>Clearspring</provider>
+    <title>Lumifi Research</title>
+    <identifier>(widgets.clearspring.com)ABA4-5716-7A80-915F</identifier>
+    <collection>_Web</collection>
+  </Widgets>
+  <Widgets>
+    <code>&lt;object type=&quot;application/x-shockwave-flash&quot; data=&quot;http://widgets.dilbert.com/o/478bf9182f409c7e/48540aed5dbbf66c/47e14893771d6f17/dba6f1c&quot; id=&quot;W478bf9182f409c7e48540aed5dbbf66c&quot; height=&quot;250&quot; width=&quot;300&quot;&gt;&lt;param value=&quot;http://widgets.dilbert.com/o/478bf9182f409c7e/48540aed5dbbf66c/47e14893771d6f17/dba6f1c&quot; name=&quot;movie&quot;/&gt;&lt;param value=&quot;transparent&quot; name=&quot;wmode&quot;&gt;&lt;param value=&quot;all&quot; name=&quot;allowNetworking&quot;&gt;&lt;param value=&quot;always&quot; name=&quot;allowScriptAccess&quot;&gt;&lt;/object&gt;</code>
+    <provider>dilbert.com</provider>
+    <title>Dilbert</title>
+    <identifier>(widgets.dilbert.com)FFA2-98EF-438A-560F</identifier>
+    <collection>_Web</collection>
+  </Widgets>
+  <Widgets>
+    <code>&lt;object classid=&quot;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&quot; codebase=&quot;http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;485px&quot; height=&quot;323px&quot; id=&quot;InsertWidget_a5867870-d53e-42f3-aca8-4bed4c7418aa&quot; align=&quot;middle&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://widgetserver.com/syndication/flash/wrapper/InsertWidget.swf&quot;/&gt;&lt;param name=&quot;quality&quot; value=&quot;high&quot; /&gt;&lt;param name=&quot;wmode&quot; value=&quot;transparent&quot; /&gt;&lt;param name=&quot;menu&quot; value=&quot;false&quot; /&gt;&lt;param name=&quot;flashvars&quot; value=&quot;r=2&amp;appId=a5867870-d53e-42f3-aca8-4bed4c7418aa&quot; /&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;sameDomain&quot; /&gt; &lt;embed src=&quot;http://widgetserver.com/syndication/flash/wrapper/InsertWidget.swf&quot;  name=&quot;InsertWidget_a5867870-d53e-42f3-aca8-4bed4c7418aa&quot;  width=&quot;485px&quot; height=&quot;323px&quot; quality=&quot;high&quot; menu=&quot;false&quot; pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot; align=&quot;middle&quot;  allowScriptAccess=&quot;sameDomain&quot; flashvars=&quot;r=2&amp;appId=a5867870-d53e-42f3-aca8-4bed4c7418aa&quot; /&gt;&lt;/object&gt;</code>
+    <provider>Widgetbox</provider>
+    <title>TGFG Bowling</title>
+    <identifier>(widgetserver.com)15CB-84C7-8199-B44A</identifier>
+    <collection>_Web</collection>
+  </Widgets>
+  <Widgets>
+    <code>&lt;object classid=&quot;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&quot; codebase=&quot;http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;400px&quot; height=&quot;323px&quot; id=&quot;InsertWidget_19ee05df-fc95-4a39-bd2a-bb00ee073a30&quot; align=&quot;middle&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://widgetserver.com/syndication/flash/wrapper/InsertWidget.swf&quot;/&gt;&lt;param name=&quot;quality&quot; value=&quot;high&quot; /&gt;&lt;param name=&quot;wmode&quot; value=&quot;transparent&quot; /&gt;&lt;param name=&quot;menu&quot; value=&quot;false&quot; /&gt;&lt;param name=&quot;flashvars&quot; value=&quot;r=2&amp;appId=19ee05df-fc95-4a39-bd2a-bb00ee073a30&quot; /&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;sameDomain&quot; /&gt; &lt;embed src=&quot;http://widgetserver.com/syndication/flash/wrapper/InsertWidget.swf&quot;  name=&quot;InsertWidget_19ee05df-fc95-4a39-bd2a-bb00ee073a30&quot;  width=&quot;400px&quot; height=&quot;323px&quot; quality=&quot;high&quot; menu=&quot;false&quot; pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot; align=&quot;middle&quot;  allowScriptAccess=&quot;sameDomain&quot; flashvars=&quot;r=2&amp;appId=19ee05df-fc95-4a39-bd2a-bb00ee073a30&quot; /&gt;&lt;/object&gt;</code>
+    <provider>Widgetbox</provider>
+    <title>Bubbles</title>
+    <identifier>(widgetserver.com)30F7-E3E1-A8F4-C43C</identifier>
+    <collection>_Web</collection>
+  </Widgets>
+  <Widgets>
+    <code>&lt;script src=&quot;http://gmodules.com/ig/ifr?url=http://www.google.com/ig/modules/ajaxsearch.xml&amp;up_localResults=0&amp;up_loc=Mountain%20View%2C%20CA&amp;up_disableAddressLookup=1&amp;up_webResults=1&amp;up_videoResults=0&amp;up_blogResults=0&amp;up_initialSearch=&amp;up_color=default&amp;synd=open&amp;w=320&amp;h=150&amp;title=Google+Mini+Search&amp;lang=all&amp;country=ALL&amp;border=http%3A%2F%2Fgmodules.com%2Fig%2Fimages%2F&amp;output=js&quot;&gt;&lt;/script&gt;</code>
+    <provider>Google Gadgets</provider>
+    <title>Google Mini Search</title>
+    <identifier>(www.google.com)7382-2F96-98DB-52D7</identifier>
+    <collection>_Web</collection>
+  </Widgets>
+  <Widgets>
+    <code>&lt;script src=&quot;http://gmodules.com/ig/ifr?url=http://www.google.com/ig/modules/datetime.xml&amp;up_color=blue&amp;synd=open&amp;w=320&amp;h=136&amp;title=Date+%26+Time&amp;border=http%3A%2F%2Fgmodules.com%2Fig%2Fimages%2F&amp;output=js&quot;&gt;&lt;/script&gt;</code>
+    <provider>Google Gadgets</provider>
+    <title>Date &amp; Time</title>
+    <identifier>(www.google.com)F7D5-8769-E42C-CF83</identifier>
+    <collection>_Web</collection>
+  </Widgets>
+  <Widgets>
+    <code>&lt;script src=&quot;http://gmodules.com/ig/ifr?url=http://www.schulz.dk/pacman.xml&amp;synd=open&amp;w=340&amp;h=420&amp;title=PacMan+v2.4&amp;border=http%3A%2F%2Fgmodules.com%2Fig%2Fimages%2F&amp;output=js&quot;&gt;&lt;/script&gt;</code>
+    <provider>Google Gadgets</provider>
+    <title>PacMan v2.4</title>
+    <identifier>(www.schulz.dk)FCFA-E316-9A3E-E5E4</identifier>
+    <collection>_Web</collection>
+  </Widgets>
+</Widget>

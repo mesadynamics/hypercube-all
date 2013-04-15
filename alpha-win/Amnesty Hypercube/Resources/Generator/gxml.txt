@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+  <name>Generator</name>
+  <namespace>com.mesadynamics.widget.Generator</namespace>
+  <version>1.0.0.0</version>
+  <author>
+    <info url="www.mesadynamics.com" />
+    <logo src="logo.png" />
+  </author>
+  <copyright>Danny Espinoza</copyright>
+  <description>Powered by Amnesty Generator.</description>
+  <icons>
+    <icon width="64" height="64" src="icon.png" />
+  </icons>
+  <hosts>
+    <host name="sidebar">
+      <base type="HTML" apiVersion="1.0.0" src="generator.htm" />
+      <permissions>full</permissions>
+      <platform minPlatformVersion="0.3" />
+    </host>
+  </hosts>
+</gadget>

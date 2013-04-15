@@ -1,0 +1,14 @@
+{
+    IBClasses = (
+        {
+            CLASS = BrowserController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {webView = WebView; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = BrowserView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = BrowserWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

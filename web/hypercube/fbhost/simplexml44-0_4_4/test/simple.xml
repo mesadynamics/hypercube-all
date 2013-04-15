@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- comment -->
+<!DOCTYPE Test SYSTEM "test.dtd" [
+  <!ENTITY ent1 "es">
+  <!ENTITY ent2 "<extra></extra> <a></a>">
+  <!NOTATION handler SYSTEM "handler.sh">
+  <!ENTITY   unparsed PUBLIC "file://directory" "file" NDATA handler>
+  <!ELEMENT movies (movie)*>
+  <!ATTLIST movies xmlns CDATA #IMPLIED>
+  <!ENTITY ext1 SYSTEM "ext1.xml">
+  <!ENTITY ext2 PUBLIC "ersatz.xml" "ext2.xml">
+]>
+<?PI a lot of processing data ?>
+<!-- comment -->
+<movies xmlns="http://www.movies.org/xml/movies"
+  xmlns:p="http://www.movies.org/xml/pages">
+<movie>
+  <p:page></p:page>
+  <p:page number="4"/>
+  <!-- comment -->
+  <?PI Procssing Instruction ?>
+  <title>Behind the Parser   <![CDATA[<node></node>]]></title>
+  <characters>
+   <character>
+    <name>Ms. Coder</name>
+    <actor>Onlivia Actora</actor>
+   </character>
+   <character>
+    <name>Mr. Coder</name>
+    <actor>&amp;El Act&#255;r&ent1;</actor>
+    &ent2;
+   </character>
+  </characters>
+  <plot>
+   So, this language. It's like, a programming language. Or is it a
+   scripting language? All is revealed in this thrilling horror spoof
+   of a documentary.
+  </plot>
+  <rating type="thumbs">7</rating>
+  <rating type="stars">5</rating>
+</movie>
+<movie>
+  <title>nop</title>
+</movie>
+<!-- open external -->
+&ext1;
+<!-- close external -->
+</movies>

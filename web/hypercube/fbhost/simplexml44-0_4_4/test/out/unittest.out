@@ -1,0 +1,71 @@
+
+OK, found PHP 4.3.10, expected at least PHP 4.2.0
+
+running regression tests on TestXml01IsterXmlNode
+-------------------------------------------------
+TestCase testxml01isterxmlnode->testappend() passed
+TestCase testxml01isterxmlnode->testasxml() passed
+TestCase testxml01isterxmlnode->testgetroot() passed
+TestCase testxml01isterxmlnode->testhaschildren() passed
+TestCase testxml01isterxmlnode->testxpath() passed
+TestCase testxml01isterxmlnode->testtosimplexml() passed
+TestCase testxml01isterxmlnode->testtodom() passed
+
+running regression tests on TestXml02IsterXmlExpat
+--------------------------------------------------
+TestCase testxml02isterxmlexpat->testsetsourcefile() passed
+TestCase testxml02isterxmlexpat->testsetsourcestring() passed
+TestCase testxml02isterxmlexpat->testparsefile() passed
+TestCase testxml02isterxmlexpat->testparsestring() passed
+TestCase testxml02isterxmlexpat->testlocate() passed
+TestCase testxml02isterxmlexpat->testgetsetparser() passed
+
+running regression tests on TestXml03IsterXmlExpatDumper
+--------------------------------------------------------
+TestCase testxml03isterxmlexpatdumper->testparse() passed
+
+running regression tests on TestXml04IsterXmlExpatNonValid
+----------------------------------------------------------
+TestCase testxml04isterxmlexpatnonvalid->testparse() passed
+TestCase testxml04isterxmlexpatnonvalid->testentitydeclaration() passed
+TestCase testxml04isterxmlexpatnonvalid->testnotationdeclaration() passed
+TestCase testxml04isterxmlexpatnonvalid->testtag() passed
+TestCase testxml04isterxmlexpatnonvalid->testattributes() passed
+TestCase testxml04isterxmlexpatnonvalid->testcdatasection() passed
+TestCase testxml04isterxmlexpatnonvalid->testcomment() passed
+TestCase testxml04isterxmlexpatnonvalid->testpiparse() passed
+TestCase testxml04isterxmlexpatnonvalid->testpirun() passed
+TestCase testxml04isterxmlexpatnonvalid->testparsedentity() passed
+TestCase testxml04isterxmlexpatnonvalid->testexternalentity() passed
+TestCase testxml04isterxmlexpatnonvalid->testnamespace() passed
+TestCase testxml04isterxmlexpatnonvalid->teststringbug1() passed
+TestCase testxml04isterxmlexpatnonvalid->teststringbug2() passed
+TestCase testxml04isterxmlexpatnonvalid->testunicode() passed
+
+running regression tests on TestXml05IsterSimpleXMLElement
+----------------------------------------------------------
+TestCase testxml05istersimplexmlelement->testaccessnode() passed
+TestCase testxml05istersimplexmlelement->testchildren1() passed
+TestCase testxml05istersimplexmlelement->testchildren2() passed
+TestCase testxml05istersimplexmlelement->testchildren3() passed
+TestCase testxml05istersimplexmlelement->testchildren4() passed
+TestCase testxml05istersimplexmlelement->testaccesscdata() passed
+TestCase testxml05istersimplexmlelement->testaccessattributes() passed
+TestCase testxml05istersimplexmlelement->testaccessparsedentity() passed
+TestCase testxml05istersimplexmlelement->testaccessexternalentity() passed
+TestCase testxml05istersimplexmlelement->testsetcdata() passed
+TestCase testxml05istersimplexmlelement->testsetattribute() passed
+
+running regression tests on TestXml06IsterXmlSimpleXMLImpl
+----------------------------------------------------------
+TestCase testxml06isterxmlsimplexmlimpl->testload_file() passed
+TestCase testxml06isterxmlsimplexmlimpl->testload_string() passed
+TestCase testxml06isterxmlsimplexmlimpl->testsetcdata1() passed
+TestCase testxml06isterxmlsimplexmlimpl->testsetcdata2() passed
+TestCase testxml06isterxmlsimplexmlimpl->testsetattribute1() passed
+TestCase testxml06isterxmlsimplexmlimpl->testsetattribute2() passed
+
+Summary
+-------
+executed 46 tests: 46 passed, 0 failed
+

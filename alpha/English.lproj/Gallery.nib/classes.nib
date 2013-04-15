@@ -1,0 +1,15 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = GalleryController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {box = NSBox; grid = GalleryGrid; title = NSTextField; webView = WebView; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = GalleryGrid; LANGUAGE = ObjC; SUPERCLASS = NSMatrix; }, 
+        {CLASS = GalleryView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = GalleryWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }
+    ); 
+    IBVersion = 1; 
+}

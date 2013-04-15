@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--Amnesty Hypercube Library -->
+<library version="1.0">
+	<provider tags="custom,datetime">
+		<title>30 Boxes</title>
+		<key>30Boxes</key>
+		<domain>30boxes.com</domain>
+	</provider>
+	<provider hidden="yes" tags="library,syndication">
+		<title>360i</title>
+		<key>360i</key>
+		<domain>360i.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,shopping">
+		<title>AdaptiveBlue</title>
+		<key>AdaptiveBlue</key>
+		<domain>smrtlnks.com</domain>
+	</provider>
+	<provider hidden="yes" tags="games">
+		<title>AddictingGames</title>
+		<key>AddictingGames</key>
+		<domain>addictinggames.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,news">
+		<title>aideRSS</title>
+		<key>aideRSS</key>
+		<domain>aiderss.com</domain>
+	</provider>
+	<provider tags="games">
+		<title>Albino Blacksheep</title>
+		<key>AlbinoBlacksheep</key>
+		<domain>albinoblacksheep.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,shopping">
+		<title>amazon.com</title>
+		<key>amazon</key>
+		<domain>amazon.com</domain>
+	</provider>
+	<provider tags="video,photos">
+		<title>aniBOOM</title>
+		<key>aniBOOM</key>
+		<domain>aniboom.com</domain>
+	</provider>
+	<provider tags="games">
+		<title>ArcadeCabin</title>
+		<key>ArcadeCabin</key>
+		<domain>arcadecabin.com</domain>
+	</provider>
+	<provider tags="custom,web">
+		<title>Bitty</title>
+		<key>Bitty</key>
+		<domain>bitty.com</domain>
+	</provider>
+	<provider tags="games,comics">
+		<title>bLaugh</title>
+		<key>bLaugh</key>
+		<domain>blaugh.com</domain>
+	</provider>
+	<provider tags="custom,video,search">
+		<title>Blinkx</title>
+		<key>Blinkx</key>
+		<domain>blinkx.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>blip.tv</title>
+		<key>blip</key>
+		<domain>blip.tv</domain>
+	</provider>
+	<provider tags="music,player">
+		<title>blogmusik</title>
+		<key>blogmusik</key>
+		<domain>blogmusik.net</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,news">
+		<title>BlogRush</title>
+		<key>BlogRush</key>
+		<domain>blogrush.com</domain>
+	</provider>
+	<provider tags="photos">
+		<title>BlueString</title>
+		<key>BlueString</key>
+		<domain>bluestring.com</domain>
+	</provider>
+	<provider tags="games">
+		<title>Blufr</title>
+		<key>Blufr</key>
+		<domain>blufr.com</domain>
+	</provider>
+	<provider hidden="yes" tags="video,photos">
+		<title>Bolt</title>
+		<key>Bolt</key>
+		<domain>bolt.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,shopping">
+		<title>BoxedUp</title>
+		<key>gifttagging2</key>
+		<domain>boxedup.com</domain>
+	</provider>
+	<provider tags="custom,sharing,files">
+		<title>Box.net</title>
+		<key>Box</key>
+		<domain>box.net</domain>
+	</provider>
+	<provider tags="video,photos">
+		<title>Break.com</title>
+		<key>Break</key>
+		<domain>break.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>Brightcove</title>
+		<key>Brightcove</key>
+		<domain>brightcove.com</domain>
+	</provider>
+	<provider tags="games">
+		<title>Bunnyhero Labs</title>
+		<key>BunnyheroLabs</key>
+		<domain>bunnyherolabs.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,widgetmaker">
+		<title>Burning Widgets</title>
+		<key>BurningWidgets</key>
+		<domain>burningwidgets.com</domain>
+	</provider>
+	<provider tags="custom,sharing,links">
+		<title>Bzzster!</title>
+		<key>Bzzster</key>
+		<domain>bzzster.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,shopping">
+		<title>Cartfly</title>
+		<key>Cartfly</key>
+		<domain>cartfly.com</domain>
+	</provider>
+	<provider hidden="yes" tags="video,syndication">
+		<title>Castfire</title>
+		<key>Castfire</key>
+		<domain>castfire.com</domain>
+	</provider>
+	<provider tags="photos">
+		<title>Cellblock</title>
+		<key>Cellblock</key>
+		<domain>cellblock.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>Channel Frederator</title>
+		<key>ChannelFrederator</key>
+		<domain>channelfrederator.com</domain>
+	</provider>
+	<provider hidden="yes" tags="library,syndication">
+		<title>Clearspring</title>
+		<key>Clearspring</key>
+		<domain>clearspring.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>ClipShack</title>
+		<key>ClipShack</key>
+		<domain>clipshack.com</domain>
+	</provider>
+	<provider tags="custom,datetime">
+		<title>ClockLink</title>
+		<key>ClockLink</key>
+		<domain>clocklink.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,blogs">
+		<title>Clutter Control Freak</title>
+		<key>ClutterControlFreak</key>
+		<domain>cluttercontrolfreak.com</domain>
+	</provider>
+	<provider hidden="yes" tags="video">
+		<title>CNET</title>
+		<key>CNET</key>
+		<domain>cnet.com</domain>
+	</provider>
+	<provider hidden="yes" tags="video">
+		<title>ComedyCentral</title>
+		<key>ComedyCentral</key>
+		<domain>comedycentral.com</domain>
+	</provider>
+	<provider tags="custom,shopping">
+		<title>Cooqy</title>
+		<key>Cooqy</key>
+		<domain>cooqy.com</domain>
+	</provider>
+	<provider tags="custom,shopping">
+		<title>CouponLooker</title>
+		<key>CouponLooker</key>
+		<domain>couponlooker.com</domain>
+	</provider>
+	<provider hidden="yes" tags="video">
+		<title>CozmoTV</title>
+		<key>CozmoTV</key>
+		<domain>cozmo.tv</domain>
+	</provider>
+	<provider tags="video">
+		<title>Crackle</title>
+		<key>Crackle</key>
+		<domain>crackle.com</domain>
+	</provider>
+	<provider hidden="yes" tags="video">
+		<title>Crackle</title>
+		<key>Crackle2</key>
+		<domain>grouper.com</domain>
+	</provider>
+	<provider tags="video,audio">
+		<title>Cruxy</title>
+		<key>Cruxy</key>
+		<domain>cruxy.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>Dailymotion</title>
+		<key>Dailymotion</key>
+		<domain>dailymotion.com</domain>
+	</provider>
+	<provider tags="custom,widgetmaker">
+		<title>Dapper</title>
+		<key>Dapper</key>
+		<domain>dapper.net</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,widgetmaker">
+		<title>Dapper</title>
+		<key>Dapper2</key>
+		<domain>dappit.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>DAVE.TV</title>
+		<key>DAVE</key>
+		<domain>dave.tv</domain>
+	</provider>
+	<provider tags="custom,sharing,links">
+		<title>Digg</title>
+		<key>Digg</key>
+		<domain>digg.com</domain>
+	</provider>
+	<provider tags="custom,player">
+		<title>Dizzler</title>
+		<key>Dizzler</key>
+		<domain>dizzler.com</domain>
+	</provider>
+	<provider hidden="yes" tags="video,syndication">
+		<title>Dovetail</title>
+		<key>Dovetail</key>
+		<domain>dovetail.tv</domain>
+	</provider>
+	<provider tags="custom,shopping">
+		<title>eBay To Go</title>
+		<key>eBayToGo</key>
+		<domain>togo.ebay.com</domain>
+	</provider>
+	<provider hidden="yes" tags="library,syndication">
+		<title>Electric Artists</title>
+		<key>ElectricArtists</key>
+		<domain>electricartists.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,people,opinion">
+		<title>ePals</title>
+		<key>ePals</key>
+		<domain>epals.com</domain>
+	</provider>
+	<provider tags="custom,player">
+		<title>eSnips</title>
+		<key>eSnips</key>
+		<domain>ensips.com</domain>
+	</provider>
+	<provider tags="custom,widgetmaker">
+		<title>Eurekster</title>
+		<key>Eurekster</key>
+		<domain>eurekster.com</domain>
+	</provider>
+	<provider tags="custom,datetime">
+		<title>Eventful</title>
+		<key>Eventful</key>
+		<domain>eventful.com</domain>
+	</provider>
+	<provider tags="video,mashups">
+		<title>eyespot</title>
+		<key>eyespot</key>
+		<domain>eyespot.com</domain>
+	</provider>
+	<provider tags="music,player">
+		<title>Fairtilizer</title>
+		<key>Fairtilizer</key>
+		<domain>fairtilizer.com</domain>
+	</provider>
+	<provider tags="video,audio">
+		<title>FanCovers.com</title>
+		<key>FanCovers</key>
+		<domain>fancovers.com</domain>
+	</provider>
+	<provider tags="library">
+		<title>FancyGens</title>
+		<key>FancyGens</key>
+		<domain>fancygens.com</domain>
+	</provider>
+	<provider tags="custom,people,sports">
+		<title>FanIQ</title>
+		<key>FanIQ</key>
+		<domain>faniq.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,people">
+		<title>FavoriteThingz</title>
+		<key>FavoriteThingz</key>
+		<domain>favoritethingz.com</domain>
+	</provider>
+	<provider tags="custom,widgetmaker">
+		<title>FeedFlash</title>
+		<key>FeedFlash</key>
+		<domain>feedflash.net</domain>
+	</provider>
+	<provider tags="custom,widgetmaker">
+		<title>Feevy</title>
+		<key>Feevy</key>
+		<domain>feevy.com</domain>
+	</provider>
+	<provider tags="music,player">
+		<title>FineTune</title>
+		<key>FineTune</key>
+		<domain>finetune.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,people,opinion">
+		<title>Fixya</title>
+		<key>Fixya</key>
+		<domain>fixya.com</domain>
+	</provider>
+	<provider tags="photos">
+		<title>Flektor</title>
+		<key>Flektor</key>
+		<domain>flektor.com</domain>
+	</provider>
+	<provider hidden="yes" tags="photos">
+		<title>Flickr</title>
+		<key>Flickr</key>
+		<domain>flickr.com</domain>
+	</provider>
+	<provider tags="photos">
+		<title>FlipFrames</title>
+		<key>FlipFrames</key>
+		<domain>usermade.com</domain>
+	</provider>
+	<provider tags="photos">
+		<title>Fliptrack</title>
+		<key>Fliptrack</key>
+		<domain>fliptrack.com</domain>
+	</provider>
+	<provider hidden="yes" tags="video,syndication">
+		<title>Fliqz</title>
+		<key>Fliqz</key>
+		<domain>fliqz.com</domain>
+	</provider>
+	<provider tags="custom,people,opinion">
+		<title>Fliva</title>
+		<key>Fliva</key>
+		<domain>fliva.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>FlixFocus</title>
+		<key>FlixFocus</key>
+		<domain>flixfocus.com</domain>
+	</provider>
+	<provider hidden="yes" tags="video,syndication">
+		<title>Flixn</title>
+		<key>Flixn</key>
+		<domain>flixn.com</domain>
+	</provider>
+	<provider tags="custom,maps">
+		<title>Frappr</title>
+		<key>Frappr</key>
+		<domain>frappr.com</domain>
+	</provider>
+	<provider tags="games,graphics">
+		<title>Funny4MySpace</title>
+		<key>Funny4MySpace</key>
+		<domain>funny4myspace.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>Funny or Die</title>
+		<key>FunnyOrDie</key>
+		<domain>funnyordie.com</domain>
+	</provider>
+	<provider tags="video,mashups">
+		<title>Fuzzwich</title>
+		<key>Fuzzwich</key>
+		<domain>fuzzwich.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,shopping">
+		<title>gBox</title>
+		<key>gBox</key>
+		<domain>gbox.com</domain>
+	</provider>
+	<provider tags="photos">
+		<title>Gickr</title>
+		<key>Gickr</key>
+		<domain>gickr.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,shopping">
+		<title>Gift Hat</title>
+		<key>GiftHat</key>
+		<domain>gifthat.com</domain>
+	</provider>
+	<provider hidden="yes" tags="library,syndication">
+		<title>Gigya</title>
+		<key>Gigya</key>
+		<domain>gigya.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,shopping">
+		<title>gifttagging</title>
+		<key>gifttagging</key>
+		<domain>gifttagging.com</domain>
+	</provider>
+	<provider hidden="yes" tags="video">
+		<title>GodTube</title>
+		<key>GodTube</key>
+		<domain>godtube.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>GoFish</title>
+		<key>GoFish</key>
+		<domain>gofish.com</domain>
+	</provider>
+	<provider tags="music,player">
+		<title>GoodStorm</title>
+		<key>GoodStorm</key>
+		<domain>goodstorm.com</domain>
+	</provider>
+	<provider tags="photos">
+		<title>GoodWidgets</title>
+		<key>GoodWidgets</key>
+		<domain>goodwidgets.com</domain>
+	</provider>
+	<provider featured="yes" tags="library">
+		<title>Google Gadgets</title>
+		<key>GoogleGadgets</key>
+		<domain>gmodules.com</domain>
+	</provider>
+	<provider tags="custom,maps">
+		<title>Google Maps</title>
+		<key>GoogleMaps</key>
+		<domain>maps.google.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>Google Video</title>
+		<key>GoogleVideo</key>
+		<domain>video.google.com</domain>
+	</provider>
+	<provider tags="music,player">
+		<title>Goombah</title>
+		<key>Goombah</key>
+		<domain>goombah.com</domain>
+	</provider>
+	<provider hidden="yes" tags="games">
+		<title>GoPets</title>
+		<key>GoPets</key>
+		<domain>gopets.com</domain>
+	</provider>
+	<provider tags="custom,widgetmaker">
+		<title>Grazr</title>
+		<key>Grazr</key>
+		<domain>grazr.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>Guba</title>
+		<key>Guba</key>
+		<domain>guba.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,shopping">
+		<title>HarperCollins</title>
+		<key>HarperCollins</key>
+		<domain>harpercollins.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>Heavy</title>
+		<key>Heavy</key>
+		<domain>heavy.com</domain>
+	</provider>
+	<provider hidden="yes" tags="video">
+		<title>Heavy</title>
+		<key>Heavy2</key>
+		<domain>myheavy.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,people">
+		<title>Hot or Not</title>
+		<key>HotOrNot</key>
+		<domain>hotornot.com</domain>
+	</provider>
+	<provider hidden="yes" tags="music,player">
+		<title>Hypster</title>
+		<key>Hypster</key>
+		<domain>hypster.com</domain>
+	</provider>
+	<provider tags="custom,weather">
+		<title>iBegin Weather</title>
+		<key>iBeginWeather</key>
+		<domain>ibegin.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>ifilm</title>
+		<key>ifilm</key>
+		<domain>ifilm.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,widgetmaker">
+		<title>iJ.am</title>
+		<key>iJam</key>
+		<domain>ij.am</domain>
+	</provider>
+	<provider tags="photos">
+		<title>imageloop</title>
+		<key>imageloop</key>
+		<domain>www.imagelooop</domain>
+	</provider>
+	<provider tags="video,audio,photos,playlists">
+		<title>imeem</title>
+		<key>imeem</key>
+		<domain>imeem.com</domain>
+	</provider>
+	<provider tags="custom,tools">
+		<title>instacalc</title>
+		<key>instacalc</key>
+		<domain>instacalc.com</domain>
+	</provider>
+	<provider tags="music,player">
+		<title>iSOUND</title>
+		<key>iSOUND</key>
+		<domain>isound.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,people,messaging">
+		<title>Jaiku</title>
+		<key>Jaiku</key>
+		<domain>jaiku.com</domain>
+	</provider>
+	<provider tags="custom,people,messaging">
+		<title>jaxtr</title>
+		<key>jaxtr</key>
+		<domain>jaxtr.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>Jumpcut</title>
+		<key>Jumpcut</key>
+		<domain>jumpcut.com</domain>
+	</provider>
+	<provider hidden="yes" tags="video,streaming">
+		<title>justin.tv</title>
+		<key>justin</key>
+		<domain>justin.tv</domain>
+	</provider>
+	<provider tags="video">
+		<title>kewego</title>
+		<key>kewego</key>
+		<domain>kewego.com</domain>
+	</provider>
+	<provider hidden="yes" tags="video,syndication">
+		<title>KickApps</title>
+		<key>KickApps</key>
+		<domain>/kickapps/flash/</domain>
+	</provider>
+	<provider tags="video">
+		<title>kyte.tv</title>
+		<key>kyte</key>
+		<domain>kyte.tv</domain>
+	</provider>
+	<provider tags="library">
+		<title>LabPixies</title>
+		<key>LabPixies</key>
+		<domain>labpixies.com</domain>
+	</provider>
+	<provider tags="games">
+		<title>Large Animal Games</title>
+		<key>LargeAnimalGames</key>
+		<domain>largeanimal.com</domain>
+	</provider>
+	<provider tags="music,player">
+		<title>Last.fm</title>
+		<key>Lastfm</key>
+		<domain>last.fm</domain>
+	</provider>
+	<provider tags="photos">
+		<title>Leafletter</title>
+		<key>Leafletter</key>
+		<domain>leafletter.com</domain>
+	</provider>
+	<provider tags="custom,people">
+		<title>LinkedInABox</title>
+		<key>LinkedInABox</key>
+		<domain>linkedinabox.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>LiveVideo</title>
+		<key>LiveVideo</key>
+		<domain>livevideo.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>lulu.tv</title>
+		<key>lulu</key>
+		<domain>lulu.tv</domain>
+	</provider>
+	<provider tags="games,graphics">
+		<title>Mashcodes</title>
+		<key>Mashcodes</key>
+		<domain>mashable.com</domain>
+	</provider>
+	<provider tags="games">
+		<title>Mashface</title>
+		<key>Mashface</key>
+		<domain>mashface.com</domain>
+	</provider>
+	<provider hidden="yes" tags="video">
+		<title>MastiShare</title>
+		<key>MastiShare</key>
+		<domain>mastishare.com</domain>
+	</provider>
+	<provider tags="custom,people,messaging">
+		<title>meebo</title>
+		<key>meebo</key>
+		<domain>meebo.com</domain>
+	</provider>
+	<provider tags="custom,tv">
+		<title>MeeVee</title>
+		<key>MeeVee</key>
+		<domain>meevee.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>Megavideo</title>
+		<key>Megavideo</key>
+		<domain>megavideo.com</domain>
+	</provider>
+	<provider hidden="yes" tags="video">
+		<title>MeraVideo</title>
+		<key>MeraVideo</key>
+		<domain>meravideo.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>Metacafe</title>
+		<key>Metacafe</key>
+		<domain>metacafe.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,people,opinion">
+		<title>Minekey</title>
+		<key>Minekey</key>
+		<domain>minekey.com</domain>
+	</provider>
+	<provider tags="games">
+		<title>Miniclip</title>
+		<key>Miniclip</key>
+		<domain>miniclip.com</domain>
+	</provider>
+	<provider tags="music,player">
+		<title>MOG</title>
+		<key>MOG</key>
+		<domain>mog.com</domain>
+	</provider>
+	<provider hidden="yes" tags="video,streaming">
+		<title>Mogulus</title>
+		<key>Mogulus</key>
+		<domain>mogulus.com</domain>
+	</provider>
+	<provider hidden="yes" tags="games">
+		<title>MostFunGames</title>
+		<key>MostFunGames</key>
+		<domain>mostfungames.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>motionbox</title>
+		<key>motionbox</key>
+		<domain>motionbox.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,people,video">
+		<title>Multiply</title>
+		<key>Multiply</key>
+		<domain>multiply.com</domain>
+	</provider>
+	<provider hidden="yes" tags="library">
+		<title>MuseStorm</title>
+		<key>MuseStorm</key>
+		<domain>musestorm.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,blogs">
+		<title>MyBlogLog</title>
+		<key>MyBlogLog</key>
+		<domain>mybloglog.com</domain>
+	</provider>
+	<provider hidden="yes" tags="video">
+		<title>My Damn Channel</title>
+		<key>MyDamnChannel</key>
+		<domain>mydamnchannel.com</domain>
+	</provider>
+	<provider tags="custom,music">
+		<title>My iTunes</title>
+		<key>MyiTunes</key>
+		<domain>/myitunes/</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,shopping">
+		<title>MyPickList</title>
+		<key>MyPickList</key>
+		<domain>mypicklist.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,people,video">
+		<title>MySpace</title>
+		<key>MySpace</key>
+		<domain>myspace.com</domain>
+	</provider>
+	<provider hidden="yes" tags="video,syndication">
+		<title>NBC</title>
+		<key>NBC</key>
+		<domain>nbc.com</domain>
+	</provider>
+	<provider hidden="yes" tags="video,syndication">
+		<title>Netscape</title>
+		<key>Netscape</key>
+		<domain>netscape.com</domain>
+	</provider>
+	<provider hidden="yes" tags="library,syndication">
+		<title>NewsGator</title>
+		<key>NewsGator</key>
+		<domain>newsgator.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,shopping">
+		<title>Nimbit</title>
+		<key>Nimbit</key>
+		<domain>nimbitmusic.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>Ning Video</title>
+		<key>NingVideo</key>
+		<domain>ning.com</domain>
+	</provider>
+	<provider tags="music,player">
+		<title>Odeo</title>
+		<key>Odeo</key>
+		<domain>odeo.com</domain>
+	</provider>
+	<provider hidden="yes" tags="music">
+		<title>OnTour</title>
+		<key>OnTour</key>
+		<domain>ontour.net</domain>
+	</provider>
+	<provider tags="video">
+		<title>Operator11</title>
+		<key>Operator11</key>
+		<domain>operator11.com</domain>
+	</provider>
+	<provider tags="library">
+		<title>Pageflakes</title>
+		<key>Pageflakes</key>
+		<domain>pageflakes.com</domain>
+	</provider>
+	<provider tags="music,player">
+		<title>payplay.fm</title>
+		<key>payplay</key>
+		<domain>payplay.fm</domain>
+	</provider>
+	<provider tags="video,photos">
+		<title>Photobucket</title>
+		<key>Photobucket</key>
+		<domain>photobucket.com</domain>
+	</provider>
+	<provider tags="photos">
+		<title>PhotoShakr</title>
+		<key>PhotoShakr</key>
+		<domain>photoshakr.com</domain>
+	</provider>
+	<provider hidden="yes" tags="photos">
+		<title>Picasa Web Albums</title>
+		<key>PicasaWebAlbums</key>
+		<domain>picasaweb.google.com</domain>
+	</provider>
+	<provider tags="games">
+		<title>PicGames</title>
+		<key>PicGames</key>
+		<domain>picgames.com</domain>
+	</provider>
+	<provider tags="custom,video,photos">
+		<title>Pickle</title>
+		<key>Pickle</key>
+		<domain>pickle.com</domain>
+	</provider>
+	<provider tags="photos">
+		<title>PictureTrail</title>
+		<key>PictureTrail</key>
+		<domain>picturetrail.com</domain>
+	</provider>
+	<provider tags="custom,people">
+		<title>PikSpot</title>
+		<key>PikSpot</key>
+		<domain>pikspot.com</domain>
+	</provider>
+	<provider tags="music,player">
+		<title>PodShow</title>
+		<key>PodShow</key>
+		<domain>podshow.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>Podtech.net</title>
+		<key>Podtech</key>
+		<domain>podtech.net</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,people,opinion">
+		<title>PollDaddy</title>
+		<key>PollDaddy</key>
+		<domain>polldaddy.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,people,opinion">
+		<title>PollPub</title>
+		<key>PollPub</key>
+		<domain>pollpub.com</domain>
+	</provider>
+	<provider tags="games,graphics">
+		<title>POQbum</title>
+		<key>POQbum</key>
+		<domain>poqbum.com</domain>
+	</provider>
+	<provider hidden="yes" tags="games,graphics">
+		<title>POQbum</title>
+		<key>POQbum2</key>
+		<domain>all-poq-here.com</domain>
+	</provider>
+	<provider hidden="yes" tags="games,graphics">
+		<title>POQbum</title>
+		<key>POQbum3</key>
+		<domain>bum-files.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,people,video">
+		<title>Porkolt</title>
+		<key>Porkolt</key>
+		<domain>porkolt.com</domain>
+	</provider>
+	<provider tags="custom,people">
+		<title>ProfileLinker</title>
+		<key>ProfileLinker</key>
+		<domain>profilelinker.com</domain>
+	</provider>
+	<provider tags="music,player">
+		<title>Project Opus</title>
+		<key>ProjectOpus</key>
+		<domain>projectopus.com</domain>
+	</provider>
+	<provider tags="music,player">
+		<title>Project Playlist</title>
+		<key>ProjectPlaylist</key>
+		<domain>musicplaylist.us</domain>
+	</provider>
+	<provider hidden="yes" tags="video,search">
+		<title>PureVideo</title>
+		<key>PureVideo</key>
+		<domain>purevideo.com</domain>
+	</provider>
+	<provider hidden="yes" tags="video,syndication">
+		<title>Putfile.com</title>
+		<key>Putfile</key>
+		<domain>putfile.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>Pyro.tv</title>
+		<key>Pyro</key>
+		<domain>pyro.tv</domain>
+	</provider>
+	<provider tags="games,graphics">
+		<title>Pyzam</title>
+		<key>Pyzam</key>
+		<domain>pyzam.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,shopping">
+		<title>Random House</title>
+		<key>RandomHouse</key>
+		<domain>randomhouse.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,people,opinion">
+		<title>RateItAll</title>
+		<key>RateItAll</key>
+		<domain>rateitall.com</domain>
+	</provider>
+	<provider tags="custom,datetime">
+		<title>Relatime</title>
+		<key>Relatime</key>
+		<domain>relatime.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>Revver</title>
+		<key>Revver</key>
+		<domain>revver.com</domain>
+	</provider>
+	<provider tags="library">
+		<title>RockYou!</title>
+		<key>RockYou</key>
+		<domain>rockyou.com</domain>
+	</provider>
+	<provider hidden="yes" tags="games">
+		<title>RockYou! Games</title>
+		<key>RockYouGames</key>
+		<domain>rockyougames.com</domain>
+	</provider>
+	<provider tags="custom,stocks">
+		<title>SaneBull</title>
+		<key>SaneBull</key>
+		<domain>sanebull.com</domain>
+	</provider>
+	<provider hidden="yes" tags="games">
+		<title>ScratchYourself</title>
+		<key>ScratchYourself</key>
+		<domain>scratchyourself.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,documents">
+		<title>Scribd</title>
+		<key>Scribd</key>
+		<domain>scribd.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,widgetmaker">
+		<title>searchCrystal</title>
+		<key>searchCrystal</key>
+		<domain>searchcrystal.com</domain>
+	</provider>
+	<provider tags="music,player,search">
+		<title>SeeqPod</title>
+		<key>SeeqPod</key>
+		<domain>seeqpod.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>Sharkle</title>
+		<key>Sharkle</key>
+		<domain>sharkle.com</domain>
+	</provider>
+	<provider tags="custom,shopping">
+		<title>Shelfari</title>
+		<key>Shelfari</key>
+		<domain>shelfari.com</domain>
+	</provider>
+	<provider tags="photos">
+		<title>Slide</title>
+		<key>Slide</key>
+		<domain>slide.com</domain>
+	</provider>
+	<provider tags="custom,widgetmaker">
+		<title>SlideFlickr</title>
+		<key>SlideFlickr</key>
+		<domain>slideflickr.com</domain>
+	</provider>
+	<provider tags="custom,sharing,slides">
+		<title>SlideShare</title>
+		<key>SlideShare</key>
+		<domain>amazonaws.com/slideshare</domain>
+	</provider>
+	<provider tags="games">
+		<title>SmackArcade</title>
+		<key>SmackArcade</key>
+		<domain>smackarcade.com</domain>
+	</provider>
+	<provider tags="custom,widgetmaker">
+		<title>Spinlets</title>
+		<key>Spinlets</key>
+		<domain>spinlets.com</domain>
+	</provider>
+	<provider tags="video,audio">
+		<title>Splashcast</title>
+		<key>Splashcast</key>
+		<domain>splashcast.net</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,people,search">
+		<title>Spock</title>
+		<key>Spock</key>
+		<domain>spock.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,sharing,links">
+		<title>Spotplex</title>
+		<key>Spotplex</key>
+		<domain>spotplex.com</domain>
+	</provider>
+	<provider tags="library">
+		<title>SpringWidgets</title>
+		<key>SpringWidgets</key>
+		<domain>thespringbox.com</domain>
+	</provider>
+	<provider hidden="yes" tags="library">
+		<title>SpringWidgets</title>
+		<key>SpringWidgets2</key>
+		<domain>springwidgets.com</domain>
+	</provider>
+	<provider tags="music,player">
+		<title>stage.fm</title>
+		<key>stage</key>
+		<domain>stage.fm</domain>
+	</provider>
+	<provider tags="video">
+		<title>StupidVideos</title>
+		<key>StupidVideos</key>
+		<domain>stupidvideos.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,shopping">
+		<title>StyleFeeder</title>
+		<key>StyleFeeder</key>
+		<domain>stylefeeder.com</domain>
+	</provider>
+	<provider tags="custom,tools">
+		<title>Swivel</title>
+		<key>Swivel</key>
+		<domain>swivel.com</domain>
+	</provider>
+	<provider hidden="yes" tags="library">
+		<title>TagWorld</title>
+		<key>TagWorld</key>
+		<domain>tagworld.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,people,search">
+		<title>Technorati</title>
+		<key>Technorati</key>
+		<domain>technorati.com</domain>
+	</provider>
+	<provider tags="custom,people">
+		<title>They're Beautiful</title>
+		<key>TheyreBeautiful</key>
+		<domain>theyrebeautiful.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,realestate">
+		<title>Trulia</title>
+		<key>Trulia</key>
+		<domain>trulia.com</domain>
+	</provider>
+	<provider tags="video,audio,photos">
+		<title>twango</title>
+		<key>twango</key>
+		<domain>twango.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,people,messaging">
+		<title>Twitter</title>
+		<key>Twitter</key>
+		<domain>twitter.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>UnCut</title>
+		<key>UnCutVideo</key>
+		<domain>uncutvideo.aol.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,people,opinion">
+		<title>UnSpun</title>
+		<key>UnSpun</key>
+		<domain>unspun.amazon.com</domain>
+	</provider>
+	<provider tags="video,streaming">
+		<title>ustream.tv</title>
+		<key>ustream</key>
+		<domain>ustream.tv</domain>
+	</provider>
+	<provider hidden="yes" tags="video,syndication">
+		<title>Veodia</title>
+		<key>Veodia</key>
+		<domain>veodia.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>Veoh</title>
+		<key>Veoh</key>
+		<domain>veoh.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,shopping">
+		<title>vFlyer</title>
+		<key>vFlyer</key>
+		<domain>vflyer.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>Viddler</title>
+		<key>Viddler</key>
+		<domain>viddler.com</domain>
+	</provider>
+	<provider hidden="yes" tags="video,syndication">
+		<title>VideoEgg</title>
+		<key>VideoEgg</key>
+		<domain>videoegg.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>VideoJug</title>
+		<key>VideoJug</key>
+		<domain>videojug.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>Vidiac</title>
+		<key>Vidiac</key>
+		<domain>vidiac.com</domain>
+	</provider>
+	<provider tags="video,photos">
+		<title>vidiLife</title>
+		<key>vidiLife</key>
+		<domain>vidiLife.com</domain>
+	</provider>
+	<provider hidden="yes" tags="video">
+		<title>VideoWebTown</title>
+		<key>VideoWebTown</key>
+		<domain>videowebtown.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>Vidmax</title>
+		<key>Vidmax</key>
+		<domain>vidmax.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>Vimeo</title>
+		<key>Vimeo</key>
+		<domain>vimeo.com</domain>
+	</provider>
+	<provider hidden="yes" tags="video,syndication">
+		<title>VitalStreamCDN</title>
+		<key>VitalStreamCDN</key>
+		<domain>vitalstreamcdn.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,people,opinion">
+		<title>Vizu</title>
+		<key>Vizu</key>
+		<domain>vizu.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>VMIX</title>
+		<key>VMIX</key>
+		<domain>vmix.com</domain>
+	</provider>
+	<provider hidden="yes" tags="video">
+		<title>VMIX</title>
+		<key>VMIX2</key>
+		<domain>vmixcore.com</domain>
+	</provider>
+	<provider tags="custom,video,playlists">
+		<title>VodPod</title>
+		<key>VodPod</key>
+		<domain>vodpod.com</domain>
+	</provider>
+	<provider tags="video,syndication">
+		<title>vSocial</title>
+		<key>vSocial</key>
+		<domain>vsocial.com</domain>
+	</provider>
+	<provider tags="photos">
+		<title>Vuvox</title>
+		<key>Vuvox</key>
+		<domain>vuvox.com</domain>
+	</provider>
+	<provider tags="custom,weather">
+		<title>WeatherForecastMap</title>
+		<key>WeatherForecastMap</key>
+		<domain>weatherforecastmap.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,weather">
+		<title>Weatherlet</title>
+		<key>Weatherlet</key>
+		<domain>weatherlet.com</domain>
+	</provider>
+	<provider tags="games">
+		<title>Webfetti</title>
+		<key>Webfetti</key>
+		<domain>webfetti.com</domain>
+	</provider>
+	<provider tags="photos">
+		<title>webshots</title>
+		<key>webshots</key>
+		<domain>webshots.com</domain>
+	</provider>
+	<provider tags="video,search">
+		<title>WeShow</title>
+		<key>WeShow</key>
+		<domain>weshow.com</domain>
+	</provider>
+	<provider tags="library">
+		<title>Widgetbox</title>
+		<key>Widgetbox</key>
+		<domain>widgetserver.com</domain>
+	</provider>
+	<provider hidden="yes" tags="library">
+		<title>Widgetbox</title>
+		<key>WidgetBox2</key>
+		<domain>widgetbox.com</domain>
+	</provider>
+	<provider tags="custom,widgetmaker">
+		<title>Widgetmate</title>
+		<key>Widgetmate</key>
+		<domain>widgetmate.com</domain>
+	</provider>
+	<provider hidden="yes" tags="library,syndication">
+		<title>WidgetNest</title>
+		<key>WidgetNest</key>
+		<domain>widgetnest.net</domain>
+	</provider>
+	<provider tags="custom,people,messaging">
+		<title>Wiffiti</title>
+		<key>Wiffiti</key>
+		<domain>wiffiti.com</domain>
+	</provider>
+	<provider hidden="yes" tags="video,syndication">
+		<title>Wildfire</title>
+		<key>Wildfire</key>
+		<domain>unrulymedia.com</domain>
+	</provider>
+	<provider tags="custom,people">
+		<title>Wink</title>
+		<key>Wink</key>
+		<domain>wink.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,people,opinion">
+		<title>Wishood</title>
+		<key>Wishood</key>
+		<domain>wishood.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,people,messaging">
+		<title>YackPack</title>
+		<key>YackPack</key>
+		<domain>yackpack.net</domain>
+	</provider>
+	<provider tags="video">
+		<title>Yahoo! Video</title>
+		<key>YahooVideo</key>
+		<domain>video.yahoo.com</domain>
+	</provider>
+	<provider tags="library">
+		<title>yourminis</title>
+		<key>yourminis</key>
+		<domain>yourminis.com</domain>
+	</provider>
+	<provider featured="yes" tags="video">
+		<title>YouTube</title>
+		<key>YouTube</key>
+		<domain>youtube.com</domain>
+	</provider>
+	<provider tags="video">
+		<title>Ziddio</title>
+		<key>Ziddio</key>
+		<domain>/ziddio/</domain>
+	</provider>
+	<provider tags="video">
+		<title>ZippyVideos</title>
+		<key>ZippyVideos</key>
+		<domain>zippyvideos.com</domain>
+	</provider>
+	<provider hidden="yes" tags="custom,documents">
+		<title>Zoho</title>
+		<key>Zoho</key>
+		<domain>zoho.com</domain>
+	</provider>
+</library>

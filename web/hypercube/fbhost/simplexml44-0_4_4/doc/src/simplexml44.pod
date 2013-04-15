@@ -1,0 +1,201 @@
+=pod
+
+=head1 NAME
+
+simplexml44 - PHP4 backport of PHP5 SimpleXML
+
+=head1 OVERVIEW
+
+B<simplexml44> is a PHP4 backport of the new PHP5 API called SimpleXML. It provides a simple
+access to XML files, optimzed for reading. It is possible to change CDATA nodes
+or attributes, but it is not possible to add or delete certain nodes of the
+internal DOM like tree. B<simplexml44> is written in pure PHP.
+
+=head1 REQUIREMENTS
+
+PHP >= 4.2.0
+
+XML Parser Extension (Expat)
+
+=head1 SHORT TUTORIAL
+
+As the name says it is simple and easy to use B<simplexml44>. You may refer to the PHP
+documentation to get an idea of SimpleXML as it is implemented with PHP5. Due to
+the nature of PHP4 B<simplexml44> is a little bit different, but usage of this package
+is straightforward too.
+
+Here is an example XML file, its name is 'simple.xml':
+
+ <?xml version="1.0" encoding="utf-8" standalone="yes"?>
+ <root>
+    <node>
+      <child gender="m">Tom Foo</child>
+      <child gender="f">Tamara Bar</child>
+    </node>
+ </root>
+
+And here is how to access this file:
+
+ <?php
+ require_once('class/IsterXmlSimpleXMLImpl.php');
+ 
+ // read and write a document
+ $impl = new IsterXmlSimpleXMLImpl;
+ $doc  = $impl->load_file('simple.xml');
+ print $doc->asXML();
+ // output is the file as given above
+ 
+ // access a node's CDATA
+ print $doc->root->node->child[0]->CDATA();
+ print "\n";
+ // output is "Tom Foo"
+ 
+ // access attributes
+ $attr = $doc->root->node->child[1]->attributes();
+ print $attr['gender'];
+ print "\n";
+ // output is "f"
+ 
+ // access children
+ foreach( $doc->root->node->children() as $child ) {
+    print $child->CDATA();
+    print "\n";
+ }
+ // output is: 
+ // Tom Foo 
+ // Tamara Bar
+ 
+ // change or add CDATA
+ $doc->root->node->child[0]->setCDATA('Jane Foo');
+ print $doc->asXML();
+ 
+ // change or add attribute
+ $doc->root->node->child[0]->setAttribute('gender', 'f');
+ print $doc->asXML();
+ 
+ ?>
+
+=head1 DIFFERENCES
+
+Because it's not possible to use the PHP5 ArrayIterator interface with PHP4
+there are some differences between this implementation and that of PHP5:
+
+=over
+
+=item *
+
+The access to the root node has to be explicit in IsterXmlSimpleXMLImpl, not
+implicit as with PHP5. Write $doc->root->node instead of $doc->node
+
+=item *
+
+You cannot access CDATA using array syntax. Use methods CDATA() and setCDATA()
+instead.
+
+=item *
+
+You cannot access attributes directly with array syntax. Always use attributes()
+to read and setAttribute() to write attributes.
+
+=item *
+
+Comments are ignored.
+
+=item *
+
+Last and least, this is not as fast as PHP5 SimpleXML--it's pure PHP4.
+
+=back
+
+
+=head1 PITFALLS
+
+=head2 Using setCDATA()
+
+If you have a document like this:
+
+ <?xml version="1.0" ?>
+ <root>
+    <node>cdata<p/></node>
+ </root>
+
+And you handle it like this:
+
+ $doc->root->node->setCDATA('foo bar');
+
+The resulting document will be this:
+
+ <?xml version="1.0" ?>
+ <root>
+    <node>foo bar</node>
+ </root>
+
+Note the missing </p> tag. This is intentionally a feature not a bug,
+but it may be subject to further discussion.
+
+=head2 Character Sets
+
+Take care on your character encoding. The parser expects UTF-8 XML files and will produce UTF-8 output as well. Currently there is no way to change this
+unless you decide to patch the sources (and the underlying expat parser
+restricts character sets to UTF-8, ISO-8859-1 and US-ASCII). As long as you are
+using only ASCII characters there is no difference between ISO-8859-1 and UTF-8
+and you will notice no problems, but if you are using characters of the higher
+part of ISO-8859-1 the differences will come into effect.
+
+=head2 Memory Consumption
+
+As with any DOM based API this is a little memory expensive. If you reuse the 
+C<IsterXmlSimpleXMLImpl> object to parse different files and create multiple
+documents in a single script you should consider to C<unset()> documents not
+longer used.
+
+=head2 'Call to a member function on a non-object'
+
+If you access a node with SimpleXML syntax and you encounter a 'Fatal error:
+Call to a member function on a non-object' you may check if you have used the
+proper array index for this node. Sure, it is also a good idea to check each
+node if it is an object at all.
+
+=head1 DOCUMENTATION
+
+To generate a detailed documentation of the provided classes you may use
+phpdocumentor (http://www.phpdoc.org/).
+
+=head1 CHANGELOG
+
+=head2 0.4.4
+
+fix: C<IsterXmlExpat::parse()> buffer bug 
+
+=head2 0.4.3
+
+fix: first element of a number of elements with equal name not in output when
+calling C<IsterSimpleXMLElement::children()>
+
+=head2 0.4.2
+
+fix: broken references in conjunction with nested arrays break 
+sometimes C<IsterSimpleXMLElement::asXML()>
+
+=head2 0.4.1
+
+Make tests work with PHP 4.2.x.
+
+=head2 0.4.0
+
+First public release.
+
+=head1 TESTS
+
+Enter ./test directory and write 'make test' at the command prompt to execute
+unit tests. This requires GNU make utility on your mashine. The php cli binary
+is expected at /usr/bin/php (change Makefile to meet your installation).
+
+=head1 AUTHOR
+
+Ingo Schramm
+
+http://www.ister.org
+
+
+=cut

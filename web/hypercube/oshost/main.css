@@ -1,0 +1,351 @@
+/*
+ *  Amnesty(TM) Hypercube
+ *  Copyright (c) 2007 Mesa Dynamics, LLC. All rights reserved.
+ */
+ 
+body {
+	margin: 0px;
+	padding: 0px;
+	font: normal 11px/1.5em Verdana,Arial,sans-serif;
+	color: #CCC;
+	height: 540px;
+}
+
+img {
+	border: none;
+}
+
+a {
+	color: #02679c;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #00344f;
+	text-decoration: underline;
+}
+
+h1 {
+	font: bold 12px/1.0em Verdana,Arial,sans-serif;
+}
+
+h2 {
+	font: bold 12px/1.0em Verdana,Arial,sans-serif;
+	color: #000;
+}
+
+td
+{
+	font: normal 11px/1.5em Verdana,Arial,sans-serif;
+}
+
+#header {
+	height: 18px;
+	float: right;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#headerl {
+	height: 18px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#add {
+	margin-top:2px;
+	width: 100px;
+	height: 18px;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	background: url("images/button.gif") no-repeat right top;
+}
+
+#add a
+{
+	padding-left: 14px;
+	font: bold 10px/1.7em Verdana,Arial,sans-serif;
+}
+
+#create {
+	display: block;
+	position: absolute;
+	top: 200px;
+	left: 150px;
+	width: 100px;
+	float: right;
+	margin-right: 25px;
+	padding-bottom: 10px;
+	background: url("images/button.gif") no-repeat right top;
+}
+
+#create a
+{
+	margin-left: 9px;
+	font: bold 10px/1.7em Verdana,Arial,sans-serif;
+}
+
+#copy {
+	display: block;
+	position: absolute;
+	top: 100px;
+	left: 150px;
+	width: 100px;
+	float: right;
+	margin-right: 25px;
+	padding-bottom: 10px;
+	background: url("images/button.gif") no-repeat right top;
+}
+
+#copy a
+{
+	margin-left: 9px;
+	font: bold 10px/1.7em Verdana,Arial,sans-serif;
+}
+
+#save {
+	display: block;
+	position: absolute;
+	top: 130px;
+	left: 150px;
+	width: 100px;
+	float: right;
+	margin-right: 25px;
+	padding-bottom: 10px;
+	background: url("images/button.gif") no-repeat right top;
+}
+
+#save a
+{
+	margin-left: 9px;
+	font: bold 10px/1.7em Verdana,Arial,sans-serif;
+}
+
+#save2 {
+	display: block;
+	position: absolute;
+	top: 130px;
+	left: 150px;
+	width: 150px;
+	float: right;
+	margin-right: 25px;
+	padding-bottom: 10px;
+	background: url("images/buttonwide.gif") no-repeat right top;
+}
+
+#save2 a
+{
+	margin-left: 9px;
+	font: bold 10px/1.7em Verdana,Arial,sans-serif;
+}
+
+#cancel {
+	display: block;
+	position: absolute;
+	color: #000;
+	top: 200px;
+	left: 260px;
+	width: 100px;
+	float: right;
+	margin-right: 25px;
+	padding-bottom: 10px;
+}
+
+#cancel2 {
+	display: block;
+	position: absolute;
+	color: #000;
+	top: 130px;
+	left: 260px;
+	width: 100px;
+	float: right;
+	margin-right: 25px;
+	padding-bottom: 10px;
+}
+
+#cancel3 {
+	display: block;
+	position: absolute;
+	color: #000;
+	top: 130px;
+	left: 310px;
+	width: 100px;
+	float: right;
+	margin-right: 25px;
+	padding-bottom: 10px;
+}
+
+#copycancel {
+	display: block;
+	position: absolute;
+	color: #000;
+	top: 100px;
+	left: 260px;
+	width: 100px;
+	float: right;
+	margin-right: 25px;
+	padding-bottom: 10px;
+}
+
+
+#widgetframe {
+	width: 100%;
+}
+
+#previewframe {
+	display: block;
+	position: absolute;
+	top: 150px;
+	width: 100%;
+}
+
+#message {
+	display: block;
+	position: absolute;
+	top: 250px;
+	color: #00344f;
+	padding: 5px;
+	margin-top: 90px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #c8d4de;
+	background-color: #EFF7FF;
+}
+
+#message2 {
+	display: block;
+	position: absolute;
+	top: 250px;
+	color: #00344f;
+	padding: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #c8d4de;
+	background-color: #EFF7FF;
+}
+
+#message3 {
+	color: #00344f;
+	padding: 5px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #c8d4de;
+	background-color: #EFF7FF;
+}
+
+
+
+#error {
+	color: #00344f;
+	padding: 5px;
+	margin: 10px;
+	border: 1px solid #FF3333;
+	background-color: #FFCCCC;
+}
+
+#verbose {
+	color: #00344f;
+	padding: 5px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #c8d4de;
+	background-color: #EFF7FF;
+}
+
+#inputform {
+	display: block;
+	position: absolute;
+	top: 70px;
+	left: 100px;
+	height: 300px;
+}
+
+#tabler
+{
+	font: bold 11px/1.5em Verdana,Arial,sans-serif;
+	color: #00344f;
+	vertical-align: top;
+	text-align: right;
+}
+
+#icons {
+	display: block;
+	position: absolute;
+	left: auto;
+	right: 0px;
+	top: 52px;
+	padding: 4px;
+}
+
+#lock {
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 52px;
+	padding: 4px;
+}
+
+/*- Menu Tabs 1--------------------------- */
+
+#tabs1 {
+	font: bold 11px/1.5em Verdana,Arial,sans-serif;
+	float: left;
+	width: 100%;
+	font-size: 93%;
+	line-height: normal;
+	border-bottom: 1px solid #BCD2E6;
+}
+#tabs1 ul {
+	margin: 0;
+	padding: 10px 10px 0 10px;
+	list-style: none;
+}
+#tabs1 li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+#tabs1 a {
+	float: left;
+	background: url("images/tableft1.gif") no-repeat left top;
+	margin: 0;
+	padding: 0 0 0 4px;
+	text-decoration: none;
+}
+#tabs1 a span {
+	float: left;
+	display: block;
+	background: url("images/tabright1.gif") no-repeat right top;
+	padding: 5px 15px 4px 6px;
+	color: #02679c;
+}
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs1 a span {
+	float: none;
+}
+/* End IE5-Mac hack */
+#tabs a:hover span {
+	color: #627EB7;
+}
+#tabs1 a:hover {
+	background-position: 0% -42px;
+}
+#tabs1 a:hover span {
+	background-position: 100% -42px;
+}
+
+#tabs1 #current a {
+	background-position: 0% -42px;
+}
+#tabs1 #current a span {
+	background-position: 100% -42px;
+	color:#00344f;
+}

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+	<ModulePrefs
+		title="Hypercube"
+		title_url="http://amnestywidgets.com/HypercubeOS.html"
+		author="AmnestyWidgets"
+		author_affiliation="Mesa Dynamics, LLC"
+		author_email="danny@mesadynamics.com"
+		author_location="Washington, DC"
+		icon="http://www.amnestywidgets.com/hypercube/oshost/images/icon.png"
+		thumbnail="http://www.amnestywidgets.com/hypercube/oshost/images/thumbnail.png"
+		screenshot="http://www.amnestywidgets.com/hypercube/oshost/images/screenshot.png"
+		category="tools"
+		summary="Web widgets in OpenSocial!"
+		description="Web widgets in OpenSocial!  Collect and embed your favorite widgets, flash video, games and more all in one place and share them with your friends.  Looking for new widgets? Our inline directory lists over 150 web widget publishers.">
+  		<Locale lang="en" country="US" />
+	  	<Locale lang="pt" country="BR" />
+	  	<Locale lang="es" />
+		<Require feature="opensocial-0.7" />
+ 		<Require feature="dynamic-height"/>
+		<Require feature="views" />
+		<Optional feature="hi5-lifecycle">
+  			<Param name="removePingUrl" value="http://www.amnestywidgets.com/hypercube/oshost/hi5_uninstall.php"/>
+  		</Optional>
+	</ModulePrefs>
+		
+	<Content type="html">
+		<![CDATA[
+
+<!--
+  Amnesty(TM) Hypercube
+  Copyright (c) 2007-2008 Mesa Dynamics, LLC. All rights reserved.
+-->
+
+<div id="data" style="display:block;">
+	<img src="http://www.amnestywidgets.com/hypercube/oshost/images/wait.gif" />
+</div>
+
+<script src="http://www.amnestywidgets.com/hypercube/oshost/md5.js"></script>
+
+<script type="text/javascript">
+	var params;
+	var surfaces;
+	var currentsurface;
+
+	function init() {
+		try {
+			var req = opensocial.newDataRequest();
+	  		req.add(req.newFetchPersonRequest(opensocial.DataRequest.PersonId.OWNER), 'owner');
+	  		req.add(req.newFetchPersonRequest(opensocial.DataRequest.PersonId.VIEWER), 'viewer');
+			req.send(initCallback);
+		} catch (e) {
+			document.getElementById('data').innerHTML = "<b>Platform Error</b><br />OpenSocial is not fully implemented on this network.";
+		}
+	};
+
+	function initCallback(response) {	
+		var url;
+		var owner;
+		var viewer;
+		
+		try {
+			owner = response.get('owner').getData();
+		} catch(e) {
+			window.location = "http://www.amnestywidgets.com/hypercube/oshost/teaser.html";
+			return;
+		}
+
+		try {
+			viewer = response.get('viewer').getData();
+		} catch(e) {
+		}
+		
+		var env = opensocial.getEnvironment();
+		var host = env.getDomain();
+		var lang = gadgets.util.getUrlParameters().lang;
+		
+		var oid = owner.getId();
+		var vid;
+		
+		try {
+			vid = viewer.getId();
+		} catch(e) {
+			vid = -1;
+		}
+		
+		var okey = "hypercube" + oid + host;
+		var vkey = "hypercube" + vid + host;
+
+		document.getElementById('data').innerHTML = '';
+
+		var directory = "http://www.amnestywidgets.com/hypercube/oshost/";
+		if (lang == 'pt-BR' || lang == 'es')
+			directory += lang + "/";
+			
+		if (params['action']) {
+			if (params['action'] == 'jump') {
+				var hash = hex_md5(okey);
+				url = directory + "action_switch.php?host=" + host + "&userid=" + oid + "&userkey=" + hash + "&widget_id=" + params['widget'];
+
+				window.location = url;
+				return;
+			}
+			
+			if (params['action'] == 'peek') {
+				if (vid == -1)
+					url = directory + "peek.php?widget_id=" + params['widget'] + "&hash=" + params['hash'];
+				else {
+					var hash = hex_md5(vkey);
+					url = directory + "preview.php?host=" + host + "&userid=" + vid + "&userkey=" + hash + "&widget_id=" + params['widget'] + "&hash=" + params['hash'];
+				}
+				
+				window.location = url;
+				return;
+			}	
+		}
+				
+		if (currentsurface.getName() == 'canvas') {
+			if (owner.isViewer()) {
+				var hash = hex_md5(okey);
+				url = directory + "index.php?host=" + host + "&userid=" + oid + "&userkey=" + hash;
+			}
+			else {
+				if (vid == -1) {
+					url = directory + "teaser.html";
+				}
+				else {
+					var hash = hex_md5(okey);
+					url = directory + "remoteindex.php?widget_id=0&host=" + host + "&userid=" + oid + "&userkey=" + hash;
+				}
+			}
+
+			window.location = url;
+			return;
+		}
+		 
+		if (currentsurface.getName() == 'profile') {
+			var ts = new Date().getTime();
+			ts = Math.floor(ts / (60 * 1000));
+			
+			if (owner.isViewer()) {
+				var hash = hex_md5(okey);
+				url = directory + "profile.php?host=" + host + "&userid=" + oid + "&userkey=" + hash + "&nocache=" + ts;
+			}
+			else {
+				var hash = hex_md5(okey);
+				url = directory + "friendprofile.php?host=" + host + "&userid=" + oid + "&userkey=" + hash + "&nocache=" + ts;;
+			}
+		}
+		else if (currentsurface.getName() == 'preview') { // hi5
+			var hash = hex_md5(vkey);
+			url = directory + "demoindex.php?host=" + host + "&userid=" + vid + "&userkey=" + hash;
+
+			window.location = url;
+			return;
+		}
+		
+		if ('undefined' == typeof(url)) {
+			document.getElementById('data').innerHTML = "<b>Platform Error</b><br />OpenSocial rendering surface not recognized.";
+			return;
+		}
+		
+		gadgets.io.makeRequest (
+			url,
+			function(response) {               
+				document.getElementById('data').innerHTML = response.data;
+			}
+		);
+	}
+	
+	function widgetpeek(widget_id, widget_hash) {
+		var canvas = new gadgets.views.View("canvas");
+		
+		var navParams = {
+			'action' : 'peek',
+			'widget' : widget_id,
+			'hash' : widget_hash
+		};
+		
+		gadgets.views.requestNavigateTo(canvas, navParams);
+	}
+	
+	function widgetjump(widget_id) {
+		var canvas = new gadgets.views.View("canvas");
+		
+		var navParams = {
+			'action' : 'jump',
+			'widget' : widget_id
+		};
+		
+		gadgets.views.requestNavigateTo(canvas, navParams);
+	}
+	
+	try {
+		params = gadgets.views.getParams();	
+		surfaces = gadgets.views.getSupportedViews();
+		currentsurface = gadgets.views.getCurrentView();
+
+		if (currentsurface.getName() == 'profile') {
+			gadgets.window.adjustHeight(48);
+		}
+
+		gadgets.util.registerOnLoadHandler(init);
+	} catch (e) {
+		document.getElementById('data').innerHTML = "<b>Platform Error</b><br />OpenSocial could not be found on this network.";
+	}
+</script>
+
+		]]>
+	</Content>
+</Module>

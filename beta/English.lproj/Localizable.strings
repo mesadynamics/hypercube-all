@@ -1,0 +1,82 @@
+"OK" = "OK";
+"Cancel" = "Cancel";
+
+"UpdateCheck" = "Check for Updates...";
+"UpdateYes" = "A new version of Hypercube is available.";
+"UpdateNo" = "Your version of Hypercube is up to date.  There are no updates available at this time.";
+"UpdateDownload" = "Go to Download Page";
+
+"ExpiredTitle" = "Beta Expiration";
+"ExpiredDownload" = "Go to Download Page";
+"ExpiredQuit" = "Quit";
+"ExpiredMessage" = "This beta version of Hypercube has expired.  Please download a new copy from our web site.";
+
+"RemoveTitle" = "Confirm Remove";
+"RemoveOK" = "Remove";
+"RemoveCancel" = "Don't Remove";
+"RemoveMessage" = "Are you sure you want to remove the selected widgets from %@?";
+"RemoveWarning" = "These widgets also will be removed from any collections that contain them.";
+"RemoveLibrary" = "your widget library";
+"RemoveCollection" = "this collection";
+
+"DisableTitle" = "Confirm Remove";
+"DisableOK" = "Remove";
+"DisableCancel" = "Don't Remove";
+"DisableMessage" = "Are you sure you want to remove the selected widgets from %@?\r\rThese widgets will be moved to the Finder's Trash.\r";
+
+"DeleteTitle" = "Confirm Delete";
+"DeleteOK" = "Delete";
+"DeleteCancel" = "Don't Delete";
+"DeleteMessage" = "Are you sure you want to delete the collection titled \"%@\"?";
+
+"LinkTitle" = "Link Established";
+"LinkMessage" = "You may now drag-and-drop widgets between %@ and your web widget library, collections and other linked destinations.";
+
+"NoLinkTitle" = "Link Required";
+"NoLinkMessage" = "You need to establish a link to this destination first by installing Hypercube on %@ and running it from the destination window.";
+
+"AlphaTitle" = "Upgrade from Alpha";
+"AlphaMessage" = "Your widgets and cubes from the Hypercube Alpha have been imported into the Hypercube beta.";
+
+"InstallTitle" = "Confirm Install";
+"InstallOK" = "Install";
+"InstallCancel" = "Don't Install";
+"InstallMessage" = "Are you sure you want to install the selected widgets into %@?";
+
+"UnlinkTitle" = "Confirm Unlink";
+"UnlinkOK" = "Unlink";
+"UnlinkCancel" = "Don't Unlink";
+"UnlinkMessage" = "Are you sure you want to unlink the destination %@?";
+
+"DashboardTitle" = "Dashboard Limitation";
+"DashboardLimit" = "Dashboard only allows one widget to be installed at a time.  Please drag the selected widgets individually.";
+
+"BetaTitle" = "Sorry, we're still working on that.";
+"BetaYahoo" = "Web widget installation into Yahoo! Widget Engine will be available in a future beta version.";
+
+"Untitled" = "Untitled";
+"UntitledWidget" = "Unknown widget";
+
+"Widgets" = "widgets";
+"Publishers" = "publishers";
+
+"TitleLibrary" = "LIBRARY";
+"TitleLibraryHypercube" = "Web Widgets";
+
+"TitleDiscovery" = "DISCOVERY";
+"TitleDiscoveryStore" = "Publisher Directory";
+"TitleDiscoveryFeatured" = "Featured Widgets";
+
+"TitlePlatform" = "PLATFORM";
+"TitleDestination" = "DESTINATION";
+"TitleCollection" = "COLLECTION";
+"TitleCollectionPreloaded" = "Beta Bundle";
+
+"WebHelp" = "Web Widgets lists your personal library of web widgets that are designed to be placed on blogs, but which you can open right on your desktop here using the Launch button.";
+"StoreHelp" = "The Publisher Directory is a list of web sites that offer web widgets to copy-and-paste.\r\rYou can explore them from here in Hypercube's inline browser and copy their widgets directly into your personal library and destinations.";
+"PartnerHelp" = "The %@ Gallery is a directory of web widgets that you can use in Hypercube.\r\rYou can explore the gallery and copy %@ widgets directly into your personal library and destinations.";
+"ShowcaseHelp" = "Featured Widgets is where you'll find useful widgets from the web that we've chosen to showcase.";
+"DashboardHelp" = "To install a web widget into your Dashboard, drag-and-drop any widget from your personal library or destination onto this item.\r\rThe widget conversion is done automatically using our Amnesty Generator technology.";
+"YahooHelp" = "Widgets installed in Yahoo! Widget Engine are displayed here for convenience.\r\rWe'll be adding more support for this platform in a future beta version of Hypercube.";
+"DestinationHelp" = "Destinations are web widget containers you can install on your favorite social network, such as %@.\r\rAfter establishing a link, you can add and remove widgets to %@ using drag-and-drop to and from your personal library and other destinations.";
+"CollectionHelp" = "Use Collections to arrange your web widgets into logical groups by dragging and dropping widgets to and from your personal library and destinations.\r\rYou can then launch them together using the Launch Widgets in Collection menu item.";

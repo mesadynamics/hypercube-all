@@ -1,0 +1,8 @@
+bin\Debug\Amnesty Hypercube.exe
+bin\Debug\Amnesty Hypercube.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Amnesty_Hypercube.Form1.resources
+obj\Debug\Amnesty_Hypercube.Properties.Resources.resources
+obj\Debug\Amnesty Hypercube.csproj.GenerateResource.Cache
+obj\Debug\Amnesty Hypercube.exe
+obj\Debug\Amnesty Hypercube.pdb

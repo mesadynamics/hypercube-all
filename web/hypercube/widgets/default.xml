@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--Amnesty Hypercube Library -->
+<library version="1.0">
+	<widget create="yes">
+		<![CDATA[
+			<script src="http://gmodules.com/ig/ifr?url=http://www.google.com/ig/modules/datetime.xml&amp;up_color=blue&amp;synd=open&amp;w=320&amp;h=136&amp;title=Date+%26+Time&amp;border=http%3A%2F%2Fgmodules.com%2Fig%2Fimages%2F&amp;output=js"></script>
+		]]>
+	</widget>
+	<widget exclude="win">
+		<![CDATA[
+			<script src="http://gmodules.com/ig/ifr?url=http://www.google.com/ig/modules/googletalk.xml&amp;synd=open&amp;w=320&amp;h=447&amp;title=Google+Talk&amp;border=http%3A%2F%2Fgmodules.com%2Fig%2Fimages%2F&amp;output=js"></script>
+		]]>
+	</widget>
+	<widget>
+		<![CDATA[
+			<script src="http://gmodules.com/ig/ifr?url=http://www.google.com/ig/modules/ajaxsearch.xml&amp;up_localResults=0&amp;up_loc=Mountain%20View%2C%20CA&amp;up_disableAddressLookup=1&amp;up_webResults=1&amp;up_videoResults=0&amp;up_blogResults=0&amp;up_initialSearch=&amp;up_color=default&amp;synd=open&amp;w=320&amp;h=150&amp;title=Google+Mini+Search&amp;lang=all&amp;country=ALL&amp;border=http%3A%2F%2Fgmodules.com%2Fig%2Fimages%2F&amp;output=js"></script>
+		]]>
+	</widget>
+	<widget exclude="win">
+		<![CDATA[
+			<script src="http://gmodules.com/ig/ifr?url=http://www.schulz.dk/pacman.xml&amp;synd=open&amp;w=340&amp;h=420&amp;title=PacMan+v2.4&amp;border=http%3A%2F%2Fgmodules.com%2Fig%2Fimages%2F&amp;output=js"></script>
+		]]>
+	</widget>
+	<widget>
+		<![CDATA[
+			<script src="http://gmodules.com/ig/ifr?url=http://bejeweledg.googlecode.com/svn/trunk/bejeweled.xml&amp;synd=open&amp;w=320&amp;h=270&amp;title=Bejeweled&amp;border=http%3A%2F%2Fgmodules.com%2Fig%2Fimages%2F&amp;output=js"></script>
+		]]>
+	</widget>
+	<widget>
+		<![CDATA[
+			<script src="http://gmodules.com/ig/ifr?url=http://www.ac-markets.com/forex/currencyconverter.xml&amp;synd=open&amp;w=320&amp;h=250&amp;title=currency+converter&amp;border=http%3A%2F%2Fgmodules.com%2Fig%2Fimages%2F&amp;output=js"></script>
+		]]>
+	</widget>
+	<widget>
+		<![CDATA[
+			<script src="http://gmodules.com/ig/ifr?url=http://www.labpixies.com/campaigns/ip/ip.xml&amp;synd=open&amp;w=320&amp;h=110&amp;title=My+IP&amp;border=http%3A%2F%2Fgmodules.com%2Fig%2Fimages%2F&amp;output=js"></script>
+		]]>
+	</widget>
+	<widget>
+		<![CDATA[
+			<script src="http://gmodules.com/ig/ifr?url=http://throttled.org/googlegadgets/youtubesearch.xml&amp;synd=open&amp;w=320&amp;h=250&amp;title=Search+YouTube&amp;border=http%3A%2F%2Fgmodules.com%2Fig%2Fimages%2F&amp;output=js"></script>
+		]]>
+	</widget>
+	<widget>
+		<![CDATA[
+			<script src="http://gmodules.com/ig/ifr?url=http://lsmith2004.googlepages.com/Maukie.xml&amp;synd=open&amp;w=360&amp;h=420&amp;title=Maukie&amp;border=http%3A%2F%2Fgmodules.com%2Fig%2Fimages%2F&amp;output=js"></script>
+		]]>
+	</widget>
+</library>

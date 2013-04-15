@@ -1,0 +1,50 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = WebView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {
+                broadcastAdd = id; 
+                broadcastRemove = id; 
+                handleBackground = id; 
+                handleClose = id; 
+                handleConfigure1 = id; 
+                handleConfigure2 = id; 
+                handleConfirmNo = id; 
+                handleConfirmYes = id; 
+                handleDashboard = id; 
+                handleDesktop = id; 
+                handleDrag = id; 
+                handleHide = id; 
+                handleHypercube = id; 
+                handleInfo = id; 
+                handleLevel = id; 
+                handleOpacity = id; 
+                handleRedraw = id; 
+                handleReload = id; 
+                handleScreenshot = id; 
+                handleSettings = id; 
+                handleUninstall = id; 
+                redrawFlash = id; 
+            }; 
+            CLASS = WidgetController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                configHost = NSButton; 
+                configLevelTitle = NSTextField; 
+                configName = NSTextField; 
+                configPanel1 = NSBox; 
+                configPanel2 = NSBox; 
+                configPause = NSButton; 
+                configSleep = NSButton; 
+                confirmPanel = NSBox; 
+                webView = WebView; 
+                widgetManager = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = WidgetView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = WidgetWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,256 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4D26C283-5E4A-4E9A-8B50-AB8C97FF68B9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Amnesty_Hypercube</RootNamespace>
+    <AssemblyName>Amnesty Hypercube</AssemblyName>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>true</GenerateManifests>
+    <SignAssembly>false</SignAssembly>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Browser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Browser.Designer.cs">
+      <DependentUpon>Browser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtendedWebBrowser2\BrowserExtendedNavigatingEventArgs.cs" />
+    <Compile Include="ExtendedWebBrowser2\ExtendedWebBrowser.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExtendedWebBrowser2\NativeMethods.cs" />
+    <Compile Include="ExtendedWebBrowser2\UnsafeNativeMethods.cs" />
+    <Compile Include="ExtendedWebBrowser2\UrlContext.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageFlip\ImageFlip.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MaxWinForm\FormState.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Browser.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Browser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widget.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Widget.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ScreenCapture\ImageFormatHandler.cs" />
+    <Compile Include="ScreenCapture\NativeMethods.cs" />
+    <Compile Include="ScreenCapture\ScreenCapture.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Widget.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Widget.Designer.cs">
+      <DependentUpon>Widget.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BaseApplicationManifest Include="Properties\app.manifest" />
+    <None Include="Resources\BrowserClose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Options.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Widget.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BrowserResize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallGear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LargeGear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon.ico" />
+    <Content Include="Icon1.ico" />
+    <None Include="Resources\SplashHypercube2.png" />
+    <None Include="Resources\Generator\glogo.png" />
+    <None Include="Resources\Generator\gicon.png" />
+    <None Include="Resources\Generator\gfront.png" />
+    <None Include="Resources\Generator\gxml.txt" />
+    <None Include="Resources\Generator\gjs.txt" />
+    <None Include="Resources\Generator\ghtm.txt" />
+    <None Include="Resources\Generator\gcss.txt" />
+    <None Include="Resources\Blank.png" />
+    <None Include="Resources\LargeWorld.png" />
+    <None Include="Resources\LargeCube.png" />
+    <None Include="Resources\Gradient.png" />
+    <None Include="Resources\Theme\Welcome.wav" />
+    <None Include="Resources\Theme\Switch.wav" />
+    <None Include="Resources\Theme\Enter.wav" />
+    <None Include="Resources\Theme\Create.wav" />
+    <None Include="Resources\Theme\Click.wav" />
+    <None Include="Resources\SplashHypercube.png" />
+    <None Include="Resources\Theme\UpOver.png" />
+    <None Include="Resources\Theme\UpDown.png" />
+    <None Include="Resources\Theme\Up.png" />
+    <None Include="Resources\Theme\ProvidersOver.png" />
+    <None Include="Resources\Theme\ProvidersDown.png" />
+    <None Include="Resources\Theme\Providers.png" />
+    <None Include="Resources\Theme\PreVideoOver.png" />
+    <None Include="Resources\Theme\PreVideoDown.png" />
+    <None Include="Resources\Theme\PreVideo.png" />
+    <None Include="Resources\Theme\PrePhotosOver.png" />
+    <None Include="Resources\Theme\PrePhotosDown.png" />
+    <None Include="Resources\Theme\PrePhotos.png" />
+    <None Include="Resources\Theme\PreOtherOver.png" />
+    <None Include="Resources\Theme\PreOtherDown.png" />
+    <None Include="Resources\Theme\PreOther.png" />
+    <None Include="Resources\Theme\PreMusicOver.png" />
+    <None Include="Resources\Theme\PreMusicDown.png" />
+    <None Include="Resources\Theme\PreMusic.png" />
+    <None Include="Resources\Theme\PreGamesOver.png" />
+    <None Include="Resources\Theme\PreGamesDown.png" />
+    <None Include="Resources\Theme\PreGames.png" />
+    <None Include="Resources\Theme\PreDirectoryOver.png" />
+    <None Include="Resources\Theme\PreDirectoryDown.png" />
+    <None Include="Resources\Theme\PreDirectory.png" />
+    <None Include="Resources\Theme\PreAllOver.png" />
+    <None Include="Resources\Theme\PreAllDown.png" />
+    <None Include="Resources\Theme\PreAll.png" />
+    <None Include="Resources\Theme\LibraryOver.png" />
+    <None Include="Resources\Theme\LibraryDown.png" />
+    <None Include="Resources\Theme\Library.png" />
+    <None Include="Resources\Theme\HelpOver.png" />
+    <None Include="Resources\Theme\HelpDown.png" />
+    <None Include="Resources\Theme\Help.png" />
+    <None Include="Resources\Theme\ForwardOver.png" />
+    <None Include="Resources\Theme\ForwardDown.png" />
+    <None Include="Resources\Theme\Forward.png" />
+    <None Include="Resources\Theme\DownOver.png" />
+    <None Include="Resources\Theme\DownDown.png" />
+    <None Include="Resources\Theme\Down.png" />
+    <None Include="Resources\Theme\CubeOver.png" />
+    <None Include="Resources\Theme\CubeDown.png" />
+    <None Include="Resources\Theme\Cube.png" />
+    <None Include="Resources\Theme\CloseOver.png" />
+    <None Include="Resources\Theme\CloseDown.png" />
+    <None Include="Resources\Theme\Close.png" />
+    <None Include="Resources\Theme\BackOver.png" />
+    <None Include="Resources\Theme\BackDown.png" />
+    <None Include="Resources\Theme\Back.png" />
+    <None Include="Resources\Browser.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,74 @@
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Info Center &ndash; Tips &amp; Tricks</title>
+	<style type="text/css">
+		@import "main.css";
+	</style>
+	<style type="text/css">
+		@import "tabs.css";
+	</style>
+
+<script type="text/javascript" src="niftycube.js"></script>
+<script type="text/javascript">
+window.onload=function(){
+Nifty("div#box","small");
+}
+</script>
+</head>
+
+<body>
+<div id="tabsH">
+		<ul>
+<li><a href="home.html"><span> Home</span></a></li>
+<li><a href="help.html"><span>Help</span></a></li>
+<li id="current"><a href="#"><span>Tips &amp; Tricks</span></a></li>
+<li><a href="faqs.html"><span>FAQs</span></a></li>
+<li><a href="issues.html"><span>Known Issues</span></a></li>
+<li><a href="credits.html"><span>Credits</span></a>
+</li>
+<li><a href="license.html"><span>License</span></a></li>
+
+		</ul>
+	 </div>
+
+	<div id="box">
+<p><b>Running iPhone Applications as Widgets</b></p><p>One of the cool things about iPhone apps is that they're lightweight and easy to use &ndash; which makes them perfect candidates for widget conversion.</p><p>To convert an iPhone application into a widget, select <b>Create Widget from Code</b>  from the main menu and enter the following:
+</p>
+<p><h0>
+&lt;iphone src="http://www.some-iphone-app-url" /&gt;
+</h0>
+</p>
+<p>Where <i>src</i> points to the URL of the iPhone application you want to convert into a widget. Press <b>Create Widget</b> and the iPhone application should appear on your screen just like any other widget.  For best performance, install Apple's Safari 3.0 beta (some iPhone apps require it).</p> <p>Note: This support is still experimental in 0.1a and will be finalized in a later version. </p>
+<br>	
+<p><b>Setting Preferences in 0.1a</b></p><p>Although this build doesn't have a Preferences user interface, some application preference keys are already in place.  If you have a copy of Apple's Property List Editor (included with Apple's Developer Tools) then you can modify these keys by opening: </p>
+<p><h0>~/Library/Preferences/com.mesadynamics.AmnestyHypercube</h0></p>
+<p>Alternatively, open your Terminal application and use the <i>defaults</i> command to modify  an individual preference key.  For example, typing the following into the Terminal:</p>
+<p><h0>defaults write com.mesadynamics.AmnestyHypercube PrefUISound NO</h0></p>
+<p>will turn off the user interface sound effects in the Hypercube.
+<p><br />This table describes the preference keys supported by Amnesty Hypercube 0.1a:
+</p><table>
+	<tr>
+		<td><i>PrefLaunchHidden</i></td>
+		<td>If YES, always launch with desktop widgets hidden.</td>
+	<tr>
+	<tr>
+		<td><i>PrefNoClickImport</i></td>
+		<td>If YES, activate the <i>NoClick</i> widget creation technology so that it functions system-wide.  This feature, which is normally activated only when the Provider Gallery is visible, automatically creates a widget when web widget HTML code is copied to the clipboard.</td>
+	<tr>
+	<tr>
+		<td><i>PrefReduceCPU</i></td>
+		<td>If YES, set  Amnesty Hypercube's process scheduling to &quot;nice&quot;.  This helps keep CPU usage down if multiple widgets (esp. Flash-based widgets) are open at the same time.</td>
+	<tr>
+	<tr>
+		<td><i>PrefUISound</i></td>
+		<td>If YES, user interface sound effects in the Hypercube are turned on.</td>
+	<tr>
+	<tr>
+		<td><i>PrefCreateSound</i></td>
+		<td>If YES, the sound effect used by  NoClick when it creates a widget is turned on.</td>
+	<tr>
+	</table>
+	</div>
+</body>
+</html>

@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\Back.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BackDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\BackDown.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BackOver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\BackOver.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blank.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Browser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Browser.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="BrowserClose" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BrowserClose.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrowserResize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BrowserResize.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Click" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\Click.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\Close.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CloseDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\CloseDown.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CloseOver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\CloseOver.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Create" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\Create.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CreditsDone" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="CreditsMore" xml:space="preserve">
+    <value>More Credits...</value>
+  </data>
+  <data name="Cube" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\Cube.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CubeDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\CubeDown.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CubeGallery" xml:space="preserve">
+    <value>Cube Gallery</value>
+  </data>
+  <data name="CubeOver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\CubeOver.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CubeTitle" xml:space="preserve">
+    <value>Cube</value>
+  </data>
+  <data name="Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\Down.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DownDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\DownDown.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DownOver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\DownOver.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\Enter.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ExpiredDownload" xml:space="preserve">
+    <value>Go to Download Page</value>
+  </data>
+  <data name="ExpiredMessage" xml:space="preserve">
+    <value>This alpha version of Amnesty Hypercube has expired.  Do you want to go to the download page now?</value>
+  </data>
+  <data name="ExpiredQuit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="ExpiredTitle" xml:space="preserve">
+    <value>Alpha Expiration</value>
+  </data>
+  <data name="FeaturedProvider" xml:space="preserve">
+    <value>Featured</value>
+  </data>
+  <data name="Forward" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\Forward.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ForwardDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\ForwardDown.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ForwardOver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\ForwardOver.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gcss" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Generator\gcss.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="gfront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Generator\gfront.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghtm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Generator\ghtm.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="gicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Generator\gicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gjs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Generator\gjs.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="glogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Generator\glogo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gradient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gradient.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gxml" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Generator\gxml.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\Help.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HelpDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\HelpDown.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HelpOver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\HelpOver.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hypercube" xml:space="preserve">
+    <value>Hypercube</value>
+  </data>
+  <data name="InfoCenter" xml:space="preserve">
+    <value>Info Center</value>
+  </data>
+  <data name="IPhoneApp" xml:space="preserve">
+    <value>iPhone Application</value>
+  </data>
+  <data name="LargeCube" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LargeCube.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LargeGear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LargeGear.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LargeWorld" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LargeWorld.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Library" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\Library.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LibraryDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\LibraryDown.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LibraryOver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\LibraryOver.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Options" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Options.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OtherProvider" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="PreAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\PreAll.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PreAllDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\PreAllDown.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PreAllOver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\PreAllOver.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PreDirectory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\PreDirectory.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PreDirectoryDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\PreDirectoryDown.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PreDirectoryOver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\PreDirectoryOver.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PreGames" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\PreGames.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PreGamesDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\PreGamesDown.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PreGamesOver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\PreGamesOver.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PreMusic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\PreMusic.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PreMusicDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\PreMusicDown.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PreMusicOver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\PreMusicOver.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PreOther" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\PreOther.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PreOtherDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\PreOtherDown.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PreOtherOver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\PreOtherOver.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PrePhotos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\PrePhotos.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PrePhotosDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\PrePhotosDown.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PrePhotosOver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\PrePhotosOver.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PreVideo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\PreVideo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PreVideoDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\PreVideoDown.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PreVideoOver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\PreVideoOver.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProviderGallery" xml:space="preserve">
+    <value>Provider Gallery</value>
+  </data>
+  <data name="Providers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\Providers.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProvidersDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\ProvidersDown.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProvidersOver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\ProvidersOver.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RemoveDesktop" xml:space="preserve">
+    <value>Remove from Desktop</value>
+  </data>
+  <data name="RemoveHypercube" xml:space="preserve">
+    <value>Remove from Cube</value>
+  </data>
+  <data name="SidebarConfirm" xml:space="preserve">
+    <value>A gadget named "{0}" is already installed in your Gallery.  Do you want to replace it?</value>
+  </data>
+  <data name="SidebarInstall" xml:space="preserve">
+    <value>Do you want to install the gadget "{0}" into your Windows Sidebar Gallery?</value>
+  </data>
+  <data name="SmallGear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SmallGear.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SplashHypercube" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SplashHypercube.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SplashHypercube2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SplashHypercube2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Switch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\Switch.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TipPresetAll" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="TipPresetGames" xml:space="preserve">
+    <value>Fun and Games</value>
+  </data>
+  <data name="TipPresetIPhone" xml:space="preserve">
+    <value>iPhone Applications</value>
+  </data>
+  <data name="TipPresetLibraries" xml:space="preserve">
+    <value>Widget Directories</value>
+  </data>
+  <data name="TipPresetMusic" xml:space="preserve">
+    <value>Music Players</value>
+  </data>
+  <data name="TipPresetOther" xml:space="preserve">
+    <value>Other Widgets</value>
+  </data>
+  <data name="TipPresetPhotos" xml:space="preserve">
+    <value>Photo Slideshows</value>
+  </data>
+  <data name="TipPresetVideo" xml:space="preserve">
+    <value>Embeddable Video</value>
+  </data>
+  <data name="UnknownWidget" xml:space="preserve">
+    <value>Unknown Widget</value>
+  </data>
+  <data name="Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\Up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateCheck" xml:space="preserve">
+    <value>Check for Updates...</value>
+  </data>
+  <data name="UpdateDownload" xml:space="preserve">
+    <value>Go to Download Page</value>
+  </data>
+  <data name="UpdateNo" xml:space="preserve">
+    <value>Your version of Amnesty Hypercube is up to date.  There are no updates available at this time.</value>
+  </data>
+  <data name="UpdateYes" xml:space="preserve">
+    <value>A new version of Amnesty Hypercube is available.  Do you want to go to the download page now?</value>
+  </data>
+  <data name="UpDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\UpDown.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpOver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\UpOver.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Welcome" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Theme\Welcome.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WelcomeTitle" xml:space="preserve">
+    <value>Welcome to Amnesty Hypercube</value>
+  </data>
+  <data name="Widget" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Widget.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;iso-8859-1</value>
+  </data>
+  <data name="WidgetGallery" xml:space="preserve">
+    <value>Widget Gallery</value>
+  </data>
+  <data name="WidgetTitle" xml:space="preserve">
+    <value>Widget</value>
+  </data>
+</root>

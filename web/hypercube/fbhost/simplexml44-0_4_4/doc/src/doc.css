@@ -1,0 +1,68 @@
+/*
+documentation css 
+$Id: doc.css,v 1.2 2004/02/10 17:49:32 ingo Exp $
+*/
+
+body 
+	{ 
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:50px;
+	margin-right:100px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size:10pt;
+	}
+
+h1 {
+	font-family:verdana,helvetica,arial,sant-serif;
+	font-size:18pt;
+	font-weight:bold;
+}
+
+h2 {
+	font-family:verdana,helvetica,arial,sant-serif;
+	font-size:16pt;
+	font-weight:bold;
+}
+
+h3 {
+	font-family:verdana,helvetica,arial,sant-serif;
+	font-size:12pt;
+	font-weight:bold;
+}
+
+p {
+	font-family:verdana,helvetica,arial,sant-serif;
+}
+
+p.block {
+	font-size:14pt;
+	font-weight:bold;
+}
+
+a {
+	font-family:verdana,helvetica,arial,sant-serif;
+}
+
+li {
+	font-family:verdana,helvetica,arial,sant-serif;
+}
+
+pre {
+	font-family:courier,courier new,monospace;
+	font-size:10pt;
+}
+
+dt {
+	font-family:verdana,helvetica,arial,sant-serif;
+	font-size:10pt;
+	font-weight:normal;
+	font-style:italic;
+}
+
+dd {
+	font-family:verdana,helvetica,arial,sant-serif;
+	font-size:10pt;
+	font-weight:normal;
+}

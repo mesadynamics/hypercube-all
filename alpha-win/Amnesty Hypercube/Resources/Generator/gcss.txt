@@ -1,0 +1,9 @@
+﻿body {
+	margin: 0px;
+	background-image: url(front.png);
+	width: 320px;
+	height: 240px;
+}
+
+#gadget {
+}

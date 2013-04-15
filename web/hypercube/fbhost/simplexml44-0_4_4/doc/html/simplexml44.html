@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>simplexml44 - PHP4 backport of PHP5 SimpleXML</title>
+<link rel="stylesheet" href="doc.css" type="text/css" />
+<link rev="made" href="mailto:feedback@suse.de" />
+</head>
+
+<body>
+<table border="0" width="100%" cellspacing="0" cellpadding="3">
+<tr><td class="block" valign="middle">
+<big><strong><span class="block">&nbsp;simplexml44 - PHP4 backport of PHP5 SimpleXML</span></strong></big>
+</td></tr>
+</table>
+
+<p><a name="__index__"></a></p>
+<!-- INDEX BEGIN -->
+
+<ul>
+
+	<li><a href="#name">NAME</a></li>
+	<li><a href="#overview">OVERVIEW</a></li>
+	<li><a href="#requirements">REQUIREMENTS</a></li>
+	<li><a href="#short_tutorial">SHORT TUTORIAL</a></li>
+	<li><a href="#differences">DIFFERENCES</a></li>
+	<li><a href="#pitfalls">PITFALLS</a></li>
+	<ul>
+
+		<li><a href="#using_setcdata__">Using <code>setCDATA()</code></a></li>
+		<li><a href="#character_sets">Character Sets</a></li>
+		<li><a href="#memory_consumption">Memory Consumption</a></li>
+		<li><a href="#_call_to_a_member_function_on_a_nonobject_">'Call to a member function on a non-object'</a></li>
+	</ul>
+
+	<li><a href="#documentation">DOCUMENTATION</a></li>
+	<li><a href="#changelog">CHANGELOG</a></li>
+	<ul>
+
+		<li><a href="#0_4_4">0.4.4</a></li>
+		<li><a href="#0_4_3">0.4.3</a></li>
+		<li><a href="#0_4_2">0.4.2</a></li>
+		<li><a href="#0_4_1">0.4.1</a></li>
+		<li><a href="#0_4_0">0.4.0</a></li>
+	</ul>
+
+	<li><a href="#tests">TESTS</a></li>
+	<li><a href="#author">AUTHOR</a></li>
+</ul>
+<!-- INDEX END -->
+
+<hr />
+<p>
+<a href="#__index__"><small>back to top</small></a>
+</p>
+<hr />
+<h1><a name="name">NAME</a></h1>
+<p>simplexml44 - PHP4 backport of PHP5 SimpleXML</p>
+<p>
+<a href="#__index__"><small>back to top</small></a>
+</p>
+<hr />
+<h1><a name="overview">OVERVIEW</a></h1>
+<p><strong>simplexml44</strong> is a PHP4 backport of the new PHP5 API called SimpleXML. It provides a simple
+access to XML files, optimzed for reading. It is possible to change CDATA nodes
+or attributes, but it is not possible to add or delete certain nodes of the
+internal DOM like tree. <strong>simplexml44</strong> is written in pure PHP.</p>
+<p>
+<a href="#__index__"><small>back to top</small></a>
+</p>
+<hr />
+<h1><a name="requirements">REQUIREMENTS</a></h1>
+<p>PHP &gt;= 4.2.0</p>
+<p>XML Parser Extension (Expat)</p>
+<p>
+<a href="#__index__"><small>back to top</small></a>
+</p>
+<hr />
+<h1><a name="short_tutorial">SHORT TUTORIAL</a></h1>
+<p>As the name says it is simple and easy to use <strong>simplexml44</strong>. You may refer to the PHP
+documentation to get an idea of SimpleXML as it is implemented with PHP5. Due to
+the nature of PHP4 <strong>simplexml44</strong> is a little bit different, but usage of this package
+is straightforward too.</p>
+<p>Here is an example XML file, its name is 'simple.xml':</p>
+<pre>
+ &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
+ &lt;root&gt;
+    &lt;node&gt;
+      &lt;child gender=&quot;m&quot;&gt;Tom Foo&lt;/child&gt;
+      &lt;child gender=&quot;f&quot;&gt;Tamara Bar&lt;/child&gt;
+    &lt;/node&gt;
+ &lt;/root&gt;</pre>
+<p>And here is how to access this file:</p>
+<pre>
+ &lt;?php
+ require_once('class/IsterXmlSimpleXMLImpl.php');
+ 
+ // read and write a document
+ $impl = new IsterXmlSimpleXMLImpl;
+ $doc  = $impl-&gt;load_file('simple.xml');
+ print $doc-&gt;asXML();
+ // output is the file as given above
+ 
+ // access a node's CDATA
+ print $doc-&gt;root-&gt;node-&gt;child[0]-&gt;CDATA();
+ print &quot;\n&quot;;
+ // output is &quot;Tom Foo&quot;
+ 
+ // access attributes
+ $attr = $doc-&gt;root-&gt;node-&gt;child[1]-&gt;attributes();
+ print $attr['gender'];
+ print &quot;\n&quot;;
+ // output is &quot;f&quot;
+ 
+ // access children
+ foreach( $doc-&gt;root-&gt;node-&gt;children() as $child ) {
+    print $child-&gt;CDATA();
+    print &quot;\n&quot;;
+ }
+ // output is: 
+ // Tom Foo 
+ // Tamara Bar
+ 
+ // change or add CDATA
+ $doc-&gt;root-&gt;node-&gt;child[0]-&gt;setCDATA('Jane Foo');
+ print $doc-&gt;asXML();
+ 
+ // change or add attribute
+ $doc-&gt;root-&gt;node-&gt;child[0]-&gt;setAttribute('gender', 'f');
+ print $doc-&gt;asXML();
+ 
+ ?&gt;</pre>
+<p>
+<a href="#__index__"><small>back to top</small></a>
+</p>
+<hr />
+<h1><a name="differences">DIFFERENCES</a></h1>
+<p>Because it's not possible to use the PHP5 ArrayIterator interface with PHP4
+there are some differences between this implementation and that of PHP5:</p>
+<ul>
+<li></li>
+The access to the root node has to be explicit in IsterXmlSimpleXMLImpl, not
+implicit as with PHP5. Write $doc-&gt;root-&gt;node instead of $doc-&gt;node
+<p></p>
+<li></li>
+You cannot access CDATA using array syntax. Use methods <code>CDATA()</code> and <code>setCDATA()</code>
+instead.
+<p></p>
+<li></li>
+You cannot access attributes directly with array syntax. Always use <code>attributes()</code>
+to read and <code>setAttribute()</code> to write attributes.
+<p></p>
+<li></li>
+Comments are ignored.
+<p></p>
+<li></li>
+Last and least, this is not as fast as PHP5 SimpleXML--it's pure PHP4.
+<p></p></ul>
+<p>
+<a href="#__index__"><small>back to top</small></a>
+</p>
+<hr />
+<h1><a name="pitfalls">PITFALLS</a></h1>
+<p>
+</p>
+<h2><a name="using_setcdata__">Using <code>setCDATA()</code></a></h2>
+<p>If you have a document like this:</p>
+<pre>
+ &lt;?xml version=&quot;1.0&quot; ?&gt;
+ &lt;root&gt;
+    &lt;node&gt;cdata&lt;p/&gt;&lt;/node&gt;
+ &lt;/root&gt;</pre>
+<p>And you handle it like this:</p>
+<pre>
+ $doc-&gt;root-&gt;node-&gt;setCDATA('foo bar');</pre>
+<p>The resulting document will be this:</p>
+<pre>
+ &lt;?xml version=&quot;1.0&quot; ?&gt;
+ &lt;root&gt;
+    &lt;node&gt;foo bar&lt;/node&gt;
+ &lt;/root&gt;</pre>
+<p>Note the missing &lt;/p&gt; tag. This is intentionally a feature not a bug,
+but it may be subject to further discussion.</p>
+<p>
+</p>
+<h2><a name="character_sets">Character Sets</a></h2>
+<p>Take care on your character encoding. The parser expects UTF-8 XML files and will produce UTF-8 output as well. Currently there is no way to change this
+unless you decide to patch the sources (and the underlying expat parser
+restricts character sets to UTF-8, ISO-8859-1 and US-ASCII). As long as you are
+using only ASCII characters there is no difference between ISO-8859-1 and UTF-8
+and you will notice no problems, but if you are using characters of the higher
+part of ISO-8859-1 the differences will come into effect.</p>
+<p>
+</p>
+<h2><a name="memory_consumption">Memory Consumption</a></h2>
+<p>As with any DOM based API this is a little memory expensive. If you reuse the 
+<code>IsterXmlSimpleXMLImpl</code> object to parse different files and create multiple
+documents in a single script you should consider to <code>unset()</code> documents not
+longer used.</p>
+<p>
+</p>
+<h2><a name="_call_to_a_member_function_on_a_nonobject_">'Call to a member function on a non-object'</a></h2>
+<p>If you access a node with SimpleXML syntax and you encounter a 'Fatal error:
+Call to a member function on a non-object' you may check if you have used the
+proper array index for this node. Sure, it is also a good idea to check each
+node if it is an object at all.</p>
+<p>
+<a href="#__index__"><small>back to top</small></a>
+</p>
+<hr />
+<h1><a name="documentation">DOCUMENTATION</a></h1>
+<p>To generate a detailed documentation of the provided classes you may use
+phpdocumentor (http://www.phpdoc.org/).</p>
+<p>
+<a href="#__index__"><small>back to top</small></a>
+</p>
+<hr />
+<h1><a name="changelog">CHANGELOG</a></h1>
+<p>
+</p>
+<h2><a name="0_4_4">0.4.4</a></h2>
+<p>fix: <code>IsterXmlExpat::parse()</code> buffer bug</p>
+<p>
+</p>
+<h2><a name="0_4_3">0.4.3</a></h2>
+<p>fix: first element of a number of elements with equal name not in output when
+calling <code>IsterSimpleXMLElement::children()</code></p>
+<p>
+</p>
+<h2><a name="0_4_2">0.4.2</a></h2>
+<p>fix: broken references in conjunction with nested arrays break 
+sometimes <code>IsterSimpleXMLElement::asXML()</code></p>
+<p>
+</p>
+<h2><a name="0_4_1">0.4.1</a></h2>
+<p>Make tests work with PHP 4.2.x.</p>
+<p>
+</p>
+<h2><a name="0_4_0">0.4.0</a></h2>
+<p>First public release.</p>
+<p>
+<a href="#__index__"><small>back to top</small></a>
+</p>
+<hr />
+<h1><a name="tests">TESTS</a></h1>
+<p>Enter ./test directory and write 'make test' at the command prompt to execute
+unit tests. This requires GNU make utility on your mashine. The php cli binary
+is expected at /usr/bin/php (change Makefile to meet your installation).</p>
+<p>
+<a href="#__index__"><small>back to top</small></a>
+</p>
+<hr />
+<h1><a name="author">AUTHOR</a></h1>
+<p>Ingo Schramm</p>
+<p><a href="http://www.ister.org">http://www.ister.org</a></p>
+<p><a href="#__index__"><small>back to top</small></a></p>
+<table border="0" width="100%" cellspacing="0" cellpadding="3">
+<tr><td class="block" valign="middle">
+<big><strong><span class="block">&nbsp;simplexml44 - PHP4 backport of PHP5 SimpleXML</span></strong></big>
+</td></tr>
+</table>
+
+</body>
+
+</html>
